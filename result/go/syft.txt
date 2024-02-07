@@ -1,0 +1,307 @@
+NAME                              INSTALLED           FIXED-IN  TYPE       VULNERABILITY        SEVERITY   
+apt                               2.7.10                        deb        CVE-2011-3374        Negligible  
+binutils                          2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+binutils                          2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+binutils                          2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+binutils                          2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+binutils                          2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+binutils                          2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+binutils-common                   2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+binutils-common                   2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+binutils-common                   2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+binutils-common                   2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+binutils-common                   2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+binutils-common                   2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+binutils-x86-64-linux-gnu         2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+binutils-x86-64-linux-gnu         2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+binutils-x86-64-linux-gnu         2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+binutils-x86-64-linux-gnu         2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+binutils-x86-64-linux-gnu         2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+binutils-x86-64-linux-gnu         2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+bsdutils                          1:2.39.3-6                    deb        CVE-2022-0563        Negligible  
+coreutils                         9.4-3+b1                      deb        CVE-2016-2781        Low         
+coreutils                         9.4-3+b1                      deb        CVE-2017-18018       Negligible  
+coreutils                         9.4-3+b1                      deb        CVE-2024-0684        Unknown     
+git                               1:2.43.0-1                    deb        CVE-2022-24975       Negligible  
+git                               1:2.43.0-1                    deb        CVE-2018-1000021     Negligible  
+git-man                           1:2.43.0-1                    deb        CVE-2022-24975       Negligible  
+git-man                           1:2.43.0-1                    deb        CVE-2018-1000021     Negligible  
+github.com/blevesearch/bleve      v1.0.14                       go-module  GHSA-9w9f-6mg8-jp7w  Medium      
+github.com/goreleaser/goreleaser  v1.23.0             1.24.0    go-module  GHSA-h3q2-8whx-c29h  Medium      
+gpgv                              2.2.40-1.1+b1                 deb        CVE-2022-3219        Negligible  
+krb5-locales                      1.20.1-5                      deb        CVE-2018-5709        Negligible  
+libapt-pkg6.0                     2.7.10                        deb        CVE-2011-3374        Negligible  
+libbinutils                       2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+libbinutils                       2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+libbinutils                       2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+libbinutils                       2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+libbinutils                       2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+libbinutils                       2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+libblkid1                         2.39.3-6                      deb        CVE-2022-0563        Negligible  
+libc-bin                          2.37-15~deb13u1     2.37-15   deb        CVE-2023-6779        High        
+libc-bin                          2.37-15~deb13u1     2.37-15   deb        CVE-2023-6246        High        
+libc-bin                          2.37-15~deb13u1     2.37-15   deb        CVE-2023-6780        Medium      
+libc-bin                          2.37-15~deb13u1               deb        CVE-2019-9192        Negligible  
+libc-bin                          2.37-15~deb13u1               deb        CVE-2019-1010025     Negligible  
+libc-bin                          2.37-15~deb13u1               deb        CVE-2019-1010024     Negligible  
+libc-bin                          2.37-15~deb13u1               deb        CVE-2019-1010023     Negligible  
+libc-bin                          2.37-15~deb13u1               deb        CVE-2019-1010022     Negligible  
+libc-bin                          2.37-15~deb13u1               deb        CVE-2018-20796       Negligible  
+libc-bin                          2.37-15~deb13u1               deb        CVE-2010-4756        Negligible  
+libc-dev-bin                      2.37-15~deb13u1     2.37-15   deb        CVE-2023-6779        High        
+libc-dev-bin                      2.37-15~deb13u1     2.37-15   deb        CVE-2023-6246        High        
+libc-dev-bin                      2.37-15~deb13u1     2.37-15   deb        CVE-2023-6780        Medium      
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2019-9192        Negligible  
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2019-1010025     Negligible  
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2019-1010024     Negligible  
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2019-1010023     Negligible  
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2019-1010022     Negligible  
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2018-20796       Negligible  
+libc-dev-bin                      2.37-15~deb13u1               deb        CVE-2010-4756        Negligible  
+libc-devtools                     2.37-15~deb13u1     2.37-15   deb        CVE-2023-6779        High        
+libc-devtools                     2.37-15~deb13u1     2.37-15   deb        CVE-2023-6246        High        
+libc-devtools                     2.37-15~deb13u1     2.37-15   deb        CVE-2023-6780        Medium      
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2019-9192        Negligible  
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2019-1010025     Negligible  
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2019-1010024     Negligible  
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2019-1010023     Negligible  
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2019-1010022     Negligible  
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2018-20796       Negligible  
+libc-devtools                     2.37-15~deb13u1               deb        CVE-2010-4756        Negligible  
+libc6                             2.37-15~deb13u1     2.37-15   deb        CVE-2023-6779        High        
+libc6                             2.37-15~deb13u1     2.37-15   deb        CVE-2023-6246        High        
+libc6                             2.37-15~deb13u1     2.37-15   deb        CVE-2023-6780        Medium      
+libc6                             2.37-15~deb13u1               deb        CVE-2019-9192        Negligible  
+libc6                             2.37-15~deb13u1               deb        CVE-2019-1010025     Negligible  
+libc6                             2.37-15~deb13u1               deb        CVE-2019-1010024     Negligible  
+libc6                             2.37-15~deb13u1               deb        CVE-2019-1010023     Negligible  
+libc6                             2.37-15~deb13u1               deb        CVE-2019-1010022     Negligible  
+libc6                             2.37-15~deb13u1               deb        CVE-2018-20796       Negligible  
+libc6                             2.37-15~deb13u1               deb        CVE-2010-4756        Negligible  
+libc6-dev                         2.37-15~deb13u1     2.37-15   deb        CVE-2023-6779        High        
+libc6-dev                         2.37-15~deb13u1     2.37-15   deb        CVE-2023-6246        High        
+libc6-dev                         2.37-15~deb13u1     2.37-15   deb        CVE-2023-6780        Medium      
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2019-9192        Negligible  
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2019-1010025     Negligible  
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2019-1010024     Negligible  
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2019-1010023     Negligible  
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2019-1010022     Negligible  
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2018-20796       Negligible  
+libc6-dev                         2.37-15~deb13u1               deb        CVE-2010-4756        Negligible  
+libctf-nobfd0                     2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+libctf-nobfd0                     2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+libctf-nobfd0                     2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+libctf-nobfd0                     2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+libctf-nobfd0                     2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+libctf-nobfd0                     2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+libctf0                           2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+libctf0                           2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+libctf0                           2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+libctf0                           2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+libctf0                           2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+libctf0                           2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+libcurl3-gnutls                   8.5.0-2             8.6.0-1   deb        CVE-2024-0853        Unknown     
+libgcrypt20                       1.10.3-2                      deb        CVE-2018-6829        Negligible  
+libgnutls30                       3.8.3-1                       deb        CVE-2011-3389        Negligible  
+libgprofng0                       2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+libgprofng0                       2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+libgprofng0                       2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+libgprofng0                       2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+libgprofng0                       2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+libgprofng0                       2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+libgssapi-krb5-2                  1.20.1-5                      deb        CVE-2018-5709        Negligible  
+libjansson4                       2.14-2+b2                     deb        CVE-2020-36325       Negligible  
+libjbig0                          2.1-6.1                       deb        CVE-2017-9937        Negligible  
+libk5crypto3                      1.20.1-5                      deb        CVE-2018-5709        Negligible  
+libkrb5-3                         1.20.1-5                      deb        CVE-2018-5709        Negligible  
+libkrb5support0                   1.20.1-5                      deb        CVE-2018-5709        Negligible  
+libldap-2.5-0                     2.5.13+dfsg-5+b3              deb        CVE-2023-2953        High        
+libldap-2.5-0                     2.5.13+dfsg-5+b3              deb        CVE-2020-15719       Negligible  
+libldap-2.5-0                     2.5.13+dfsg-5+b3              deb        CVE-2017-17740       Negligible  
+libldap-2.5-0                     2.5.13+dfsg-5+b3              deb        CVE-2017-14159       Negligible  
+libldap-2.5-0                     2.5.13+dfsg-5+b3              deb        CVE-2015-3276        Negligible  
+libldap-common                    2.5.13+dfsg-5                 deb        CVE-2023-2953        High        
+libldap-common                    2.5.13+dfsg-5                 deb        CVE-2020-15719       Negligible  
+libldap-common                    2.5.13+dfsg-5                 deb        CVE-2017-17740       Negligible  
+libldap-common                    2.5.13+dfsg-5                 deb        CVE-2017-14159       Negligible  
+libldap-common                    2.5.13+dfsg-5                 deb        CVE-2015-3276        Negligible  
+libmount1                         2.39.3-6                      deb        CVE-2022-0563        Negligible  
+libpam-modules                    1.5.2-9.1+b1                  deb        CVE-2024-22365       Unknown     
+libpam-modules-bin                1.5.2-9.1+b1                  deb        CVE-2024-22365       Unknown     
+libpam-runtime                    1.5.2-9.1                     deb        CVE-2024-22365       Unknown     
+libpam0g                          1.5.2-9.1+b1                  deb        CVE-2024-22365       Unknown     
+libperl5.38                       5.38.2-3                      deb        CVE-2011-4116        Negligible  
+libpng16-16                       1.6.40-3                      deb        CVE-2021-4214        Negligible  
+libsframe1                        2.41.90.20240122-1            deb        CVE-2021-32256       Negligible  
+libsframe1                        2.41.90.20240122-1            deb        CVE-2018-9996        Negligible  
+libsframe1                        2.41.90.20240122-1            deb        CVE-2018-20712       Negligible  
+libsframe1                        2.41.90.20240122-1            deb        CVE-2018-20673       Negligible  
+libsframe1                        2.41.90.20240122-1            deb        CVE-2018-18483       Negligible  
+libsframe1                        2.41.90.20240122-1            deb        CVE-2017-13716       Negligible  
+libsmartcols1                     2.39.3-6                      deb        CVE-2022-0563        Negligible  
+libssl3                           3.1.4-2             3.1.5-1   deb        CVE-2024-0727        Medium      
+libssl3                           3.1.4-2             3.1.5-1   deb        CVE-2023-6129        Medium      
+libssl3                           3.1.4-2                       deb        CVE-2010-0928        Negligible  
+libssl3                           3.1.4-2                       deb        CVE-2007-6755        Negligible  
+libssl3                           3.1.4-2             3.1.5-1   deb        CVE-2023-6237        Unknown     
+libsystemd0                       255.3-1                       deb        CVE-2023-31439       Negligible  
+libsystemd0                       255.3-1                       deb        CVE-2023-31438       Negligible  
+libsystemd0                       255.3-1                       deb        CVE-2023-31437       Negligible  
+libsystemd0                       255.3-1                       deb        CVE-2013-4392        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2023-6228        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2023-3164        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2023-1916        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2022-1210        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2018-10126       Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2017-9117        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2017-5563        Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2017-17973       Negligible  
+libtiff6                          4.5.1+git230720-4             deb        CVE-2017-16232       Negligible  
+libudev1                          255.3-1                       deb        CVE-2023-31439       Negligible  
+libudev1                          255.3-1                       deb        CVE-2023-31438       Negligible  
+libudev1                          255.3-1                       deb        CVE-2023-31437       Negligible  
+libudev1                          255.3-1                       deb        CVE-2013-4392        Negligible  
+libuuid1                          2.39.3-6                      deb        CVE-2022-0563        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-23307       High        
+linux-libc-dev                    6.5.13-1            6.6.11-1  deb        CVE-2024-22705       High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-1086        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-1085        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-0841        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2024-0646        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2024-0582        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2024-0565        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6932        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6931        High        
+linux-libc-dev                    6.5.13-1            6.6.13-1  deb        CVE-2023-6915        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6817        High        
+linux-libc-dev                    6.5.13-1            6.6.9-1   deb        CVE-2023-6606        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6531        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-6270        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-6238        High        
+linux-libc-dev                    6.5.13-1            6.6.9-1   deb        CVE-2023-6200        High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-51782       High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-51781       High        
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-51780       High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-46838       High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-3640        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2021-3864        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2021-3847        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-19814       High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-19449       High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2013-7445        High        
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-23851       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-23850       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-23849       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-23848       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-22099       Medium      
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2024-0584        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-0564        Medium      
+linux-libc-dev                    6.5.13-1            6.6.11-1  deb        CVE-2024-0193        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-7042        Medium      
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6622        Medium      
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6560        Medium      
+linux-libc-dev                    6.5.13-1            6.6.8-1   deb        CVE-2023-6121        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-50431       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-47233       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-4010        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-37454       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-3397        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-31082       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-1192        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-0160        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-4543        Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2020-36694       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2020-14304       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-20794       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16089       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-15213       Medium      
+linux-libc-dev                    6.5.13-1                      deb        CVE-2024-21803       Low         
+linux-libc-dev                    6.5.13-1                      deb        CVE-2018-12928       Low         
+linux-libc-dev                    6.5.13-1            6.6.13-1  deb        CVE-2023-6610        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-31085       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-31081       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-26242       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-23039       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-45885       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-45884       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-44033       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-44032       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-41848       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-3238        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-2961        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-25265       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-1247        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2022-0400        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2021-3714        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2021-26934       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2020-35501       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2020-11725       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-19378       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-19070       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16234       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16233       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16232       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16231       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16230       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-16229       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12456       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12455       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12382       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12381       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12380       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12379       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-12378       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2019-11191       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2018-17977       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2018-1121        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2017-13694       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2017-13693       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2017-0630        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2016-8660        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2016-10723       Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2015-2877        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2014-9900        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2014-9892        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2012-4542        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2011-4917        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2011-4916        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2011-4915        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2010-5321        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2010-4563        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2008-4609        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2008-2544        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2007-3719        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2005-3660        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2004-0230        Negligible  
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-6536        Unknown     
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-6535        Unknown     
+linux-libc-dev                    6.5.13-1                      deb        CVE-2023-6356        Unknown     
+linux-libc-dev                    6.5.13-1            6.6.9-1   deb        CVE-2023-51779       Unknown     
+login                             1:4.13+dfsg1-3+b1             deb        CVE-2019-19882       Negligible  
+login                             1:4.13+dfsg1-3+b1             deb        CVE-2007-5686        Negligible  
+mount                             2.39.3-6                      deb        CVE-2022-0563        Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2023-51767       High        
+openssh-client                    1:9.6p1-3                     deb        CVE-2020-15778       Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2020-14145       Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2019-6110        Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2018-15919       Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2016-20012       Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2008-3234        Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2007-2768        Negligible  
+openssh-client                    1:9.6p1-3                     deb        CVE-2007-2243        Negligible  
+openssl                           3.1.4-2             3.1.5-1   deb        CVE-2024-0727        Medium      
+openssl                           3.1.4-2             3.1.5-1   deb        CVE-2023-6129        Medium      
+openssl                           3.1.4-2                       deb        CVE-2010-0928        Negligible  
+openssl                           3.1.4-2                       deb        CVE-2007-6755        Negligible  
+openssl                           3.1.4-2             3.1.5-1   deb        CVE-2023-6237        Unknown     
+passwd                            1:4.13+dfsg1-3+b1             deb        CVE-2019-19882       Negligible  
+passwd                            1:4.13+dfsg1-3+b1             deb        CVE-2007-5686        Negligible  
+patch                             2.7.6-7                       deb        CVE-2021-45261       Negligible  
+patch                             2.7.6-7                       deb        CVE-2018-6952        Negligible  
+patch                             2.7.6-7                       deb        CVE-2018-6951        Negligible  
+patch                             2.7.6-7                       deb        CVE-2010-4651        Negligible  
+perl                              5.38.2-3                      deb        CVE-2011-4116        Negligible  
+perl-base                         5.38.2-3                      deb        CVE-2011-4116        Negligible  
+perl-modules-5.38                 5.38.2-3                      deb        CVE-2011-4116        Negligible  
+tar                               1.35+dfsg-3                   deb        CVE-2005-2541        Negligible  
+util-linux                        2.39.3-6                      deb        CVE-2022-0563        Negligible

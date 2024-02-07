@@ -1,0 +1,540 @@
+
+Testing docker-scanning-test-cargo...
+
+✗ Low severity vulnerability found in util-linux/libblkid1
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-UTILLINUX-2401084
+  Introduced through: util-linux/libblkid1@2.39.3-6, e2fsprogs/e2fsprogs@1.47.0-2+b1, util-linux/libmount1@2.39.3-6, util-linux@2.39.3-6, util-linux/mount@2.39.3-6, util-linux/libuuid1@2.39.3-6, util-linux/libsmartcols1@2.39.3-6, util-linux/bsdutils@1:2.39.3-6
+  From: util-linux/libblkid1@2.39.3-6
+  From: e2fsprogs/e2fsprogs@1.47.0-2+b1 > util-linux/libblkid1@2.39.3-6
+  From: util-linux/libmount1@2.39.3-6 > util-linux/libblkid1@2.39.3-6
+  and 14 more...
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Improper Resource Shutdown or Release
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-2440573
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405270
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405393
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405480
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-405861
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-406160
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-5416362
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-5673708
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tiff/libtiff6
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TIFF-6079535
+  Introduced through: tiff/libtiff6@4.5.1+git230720-4, glibc/libc-devtools@2.37-15~deb13u1
+  From: tiff/libtiff6@4.5.1+git230720-4
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TAR-312332
+  Introduced through: build-essential@12.10
+  From: build-essential@12.10 > dpkg/dpkg-dev@1.22.4 > tar@1.35+dfsg-3
+  From: build-essential@12.10 > dpkg/dpkg-dev@1.22.4 > dpkg/libdpkg-perl@1.22.4 > dpkg@1.22.4 > tar@1.35+dfsg-3
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-305145
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-5733388
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-5733394
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-5733400
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SQLITE3-2407040
+  Introduced through: sqlite3/libsqlite3-0@3.45.0-1, gnupg2/gnupg@2.2.40-1.1
+  From: sqlite3/libsqlite3-0@3.45.0-1
+  From: gnupg2/gnupg@2.2.40-1.1 > gnupg2/gpg@2.2.40-1.1+b1 > sqlite3/libsqlite3-0@3.45.0-1
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Access Restriction Bypass
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-306251
+  Introduced through: shadow/passwd@1:4.13+dfsg1-3+b1, adduser@3.137, shadow/login@1:4.13+dfsg1-3+b1
+  From: shadow/passwd@1:4.13+dfsg1-3+b1
+  From: adduser@3.137 > shadow/passwd@1:4.13+dfsg1-3+b1
+  From: shadow/login@1:4.13+dfsg1-3+b1
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-539863
+  Introduced through: shadow/passwd@1:4.13+dfsg1-3+b1, adduser@3.137, shadow/login@1:4.13+dfsg1-3+b1
+  From: shadow/passwd@1:4.13+dfsg1-3+b1
+  From: adduser@3.137 > shadow/passwd@1:4.13+dfsg1-3+b1
+  From: shadow/login@1:4.13+dfsg1-3+b1
+
+✗ Low severity vulnerability found in perl/perl-modules-5.38
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PERL-327794
+  Introduced through: perl/perl-modules-5.38@5.38.2-3, libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-8+b2, perl/libperl5.38@5.38.2-3, perl/perl-base@5.38.2-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-4+b2, liblocale-gettext-perl/liblocale-gettext-perl@1.07-6+b1, perl@5.38.2-3
+  From: perl/perl-modules-5.38@5.38.2-3
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-8+b2 > perl@5.38.2-3 > perl/perl-modules-5.38@5.38.2-3
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-8+b2 > perl@5.38.2-3 > perl/libperl5.38@5.38.2-3 > perl/perl-modules-5.38@5.38.2-3
+  and 11 more...
+
+✗ Low severity vulnerability found in patch
+  Description: Release of Invalid Pointer or Reference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-2324791
+  Introduced through: build-essential@12.10
+  From: build-essential@12.10 > dpkg/dpkg-dev@1.22.4 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-303860
+  Introduced through: build-essential@12.10
+  From: build-essential@12.10 > dpkg/dpkg-dev@1.22.4 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-303879
+  Introduced through: build-essential@12.10
+  From: build-essential@12.10 > dpkg/dpkg-dev@1.22.4 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Directory Traversal
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PATCH-303895
+  Introduced through: build-essential@12.10
+  From: build-essential@12.10 > dpkg/dpkg-dev@1.22.4 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in pam/libpam0g
+  Description: CVE-2024-22365
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PAM-6178911
+  Introduced through: pam/libpam0g@1.5.2-9.1+b1, shadow/login@1:4.13+dfsg1-3+b1, util-linux@2.39.3-6, adduser@3.137, pam/libpam-modules-bin@1.5.2-9.1+b1, pam/libpam-modules@1.5.2-9.1+b1, pam/libpam-runtime@1.5.2-9.1
+  From: pam/libpam0g@1.5.2-9.1+b1
+  From: shadow/login@1:4.13+dfsg1-3+b1 > pam/libpam0g@1.5.2-9.1+b1
+  From: util-linux@2.39.3-6 > pam/libpam0g@1.5.2-9.1+b1
+  and 11 more...
+
+✗ Low severity vulnerability found in openssl/libssl3
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-374710
+  Introduced through: coreutils/coreutils@9.4-3+b1, cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1, ca-certificates@20230311, curl@8.5.0-2, build-essential@12.10, openssl@3.1.4-2
+  From: coreutils/coreutils@9.4-3+b1 > openssl/libssl3@3.1.4-2
+  From: cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1 > openssl/libssl3@3.1.4-2
+  From: ca-certificates@20230311 > openssl@3.1.4-2 > openssl/libssl3@3.1.4-2
+  and 6 more...
+
+✗ Low severity vulnerability found in openssl/libssl3
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-374997
+  Introduced through: coreutils/coreutils@9.4-3+b1, cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1, ca-certificates@20230311, curl@8.5.0-2, build-essential@12.10, openssl@3.1.4-2
+  From: coreutils/coreutils@9.4-3+b1 > openssl/libssl3@3.1.4-2
+  From: cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1 > openssl/libssl3@3.1.4-2
+  From: ca-certificates@20230311 > openssl@3.1.4-2 > openssl/libssl3@3.1.4-2
+  and 6 more...
+
+✗ Low severity vulnerability found in openssl/libssl3
+  Description: CVE-2023-6237
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-6157245
+  Introduced through: coreutils/coreutils@9.4-3+b1, cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1, ca-certificates@20230311, curl@8.5.0-2, build-essential@12.10, openssl@3.1.4-2
+  From: coreutils/coreutils@9.4-3+b1 > openssl/libssl3@3.1.4-2
+  From: cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1 > openssl/libssl3@3.1.4-2
+  From: ca-certificates@20230311 > openssl@3.1.4-2 > openssl/libssl3@3.1.4-2
+  and 6 more...
+  Fixed in: 3.1.5-1
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Improper Initialization
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-304608
+  Introduced through: gnupg2/dirmngr@2.2.40-1.1+b1, curl@8.5.0-2, openldap/libldap-common@2.5.13+dfsg-5
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: openldap/libldap-common@2.5.13+dfsg-5
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-304655
+  Introduced through: gnupg2/dirmngr@2.2.40-1.1+b1, curl@8.5.0-2, openldap/libldap-common@2.5.13+dfsg-5
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: openldap/libldap-common@2.5.13+dfsg-5
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-304668
+  Introduced through: gnupg2/dirmngr@2.2.40-1.1+b1, curl@8.5.0-2, openldap/libldap-common@2.5.13+dfsg-5
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: openldap/libldap-common@2.5.13+dfsg-5
+
+✗ Low severity vulnerability found in openldap/libldap-2.5-0
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-584925
+  Introduced through: gnupg2/dirmngr@2.2.40-1.1+b1, curl@8.5.0-2, openldap/libldap-common@2.5.13+dfsg-5
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: openldap/libldap-common@2.5.13+dfsg-5
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBPNG16-2363921
+  Introduced through: libpng1.6/libpng16-16@1.6.40-3, glibc/libc-devtools@2.37-15~deb13u1
+  From: libpng1.6/libpng16-16@1.6.40-3
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > libpng1.6/libpng16-16@1.6.40-3
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > fontconfig/libfontconfig1@2.14.2-6+b1 > freetype/libfreetype6@2.13.2+dfsg-1+b1 > libpng1.6/libpng16-16@1.6.40-3
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBGCRYPT20-391903
+  Introduced through: libgcrypt20@1.10.3-2, gnupg2/dirmngr@2.2.40-1.1+b1, apt@2.7.10, gnupg2/gnupg@2.2.40-1.1
+  From: libgcrypt20@1.10.3-2
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > libgcrypt20@1.10.3-2
+  From: apt@2.7.10 > apt/libapt-pkg6.0@2.7.10 > libgcrypt20@1.10.3-2
+  and 9 more...
+
+✗ Low severity vulnerability found in krb5/libk5crypto3
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-KRB5-395958
+  Introduced through: build-essential@12.10, curl@8.5.0-2, krb5/krb5-locales@1.20.1-5, krb5/libkrb5support0@1.20.1-5
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > libnsl/libnsl-dev@1.3.0-3 > libnsl/libnsl2@1.3.0-3 > libtirpc/libtirpc3@1.3.4+ds-1 > krb5/libgssapi-krb5-2@1.20.1-5 > krb5/libk5crypto3@1.20.1-5
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > libnsl/libnsl-dev@1.3.0-3 > libnsl/libnsl2@1.3.0-3 > libtirpc/libtirpc3@1.3.4+ds-1 > krb5/libgssapi-krb5-2@1.20.1-5 > krb5/libkrb5-3@1.20.1-5 > krb5/libk5crypto3@1.20.1-5
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > libnsl/libnsl-dev@1.3.0-3 > libnsl/libnsl2@1.3.0-3 > libtirpc/libtirpc3@1.3.4+ds-1 > krb5/libgssapi-krb5-2@1.20.1-5 > krb5/libkrb5-3@1.20.1-5
+  and 4 more...
+
+✗ Low severity vulnerability found in jbigkit/libjbig0
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-JBIGKIT-289893
+  Introduced through: jbigkit/libjbig0@2.1-6.1, glibc/libc-devtools@2.37-15~deb13u1
+  From: jbigkit/libjbig0@2.1-6.1
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > tiff/libtiff6@4.5.1+git230720-4 > jbigkit/libjbig0@2.1-6.1
+
+✗ Low severity vulnerability found in jansson/libjansson4
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-JANSSON-1264525
+  Introduced through: build-essential@12.10
+  From: build-essential@12.10 > gcc-defaults/gcc@4:13.2.0-7 > gcc-13@13.2.0-13 > gcc-13/gcc-13-x86-64-linux-gnu@13.2.0-13 > binutils/binutils-x86-64-linux-gnu@2.42-2 > jansson/libjansson4@2.14-2+b2
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GNUTLS28-340756
+  Introduced through: apt@2.7.10, gnupg2/dirmngr@2.2.40-1.1+b1, curl@8.5.0-2
+  From: apt@2.7.10 > gnutls28/libgnutls30@3.8.3-1
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > gnutls28/libgnutls30@3.8.3-1
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2 > rtmpdump/librtmp1@2.4+20151223.gitfa8646d.1-2+b2 > gnutls28/libgnutls30@3.8.3-1
+  and 1 more...
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GNUPG2-3330744
+  Introduced through: gnupg2/gpgv@2.2.40-1.1+b1, apt@2.7.10, gnupg2/gnupg@2.2.40-1.1, gnupg2/gpgconf@2.2.40-1.1+b1, gnupg2/dirmngr@2.2.40-1.1+b1, gnupg2/gnupg-l10n@2.2.40-1.1, gnupg2/gnupg-utils@2.2.40-1.1+b1, gnupg2/gpg@2.2.40-1.1+b1, gnupg2/gpg-agent@2.2.40-1.1+b1, gnupg2/gpg-wks-client@2.2.40-1.1+b1, gnupg2/gpg-wks-server@2.2.40-1.1+b1, gnupg2/gpgsm@2.2.40-1.1+b1
+  From: gnupg2/gpgv@2.2.40-1.1+b1
+  From: apt@2.7.10 > gnupg2/gpgv@2.2.40-1.1+b1
+  From: gnupg2/gnupg@2.2.40-1.1 > gnupg2/gpgv@2.2.40-1.1+b1
+  and 27 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-338097
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-338174
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Resource Management Errors
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-356736
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452130
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use of Insufficiently Random Values
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452151
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452711
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2019-1010023
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452916
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2023-6780
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-6210093
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+  Fixed in: 2.37-15
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2023-6779
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-6210094
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+  Fixed in: 2.37-15
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: CVE-2023-52425
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-EXPAT-6227599
+  Introduced through: expat/libexpat1@2.5.0-2+b2, glibc/libc-devtools@2.37-15~deb13u1
+  From: expat/libexpat1@2.5.0-2+b2
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > fontconfig/libfontconfig1@2.14.2-6+b1 > expat/libexpat1@2.5.0-2+b2
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: CVE-2023-52426
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-EXPAT-6227600
+  Introduced through: expat/libexpat1@2.5.0-2+b2, glibc/libc-devtools@2.37-15~deb13u1
+  From: expat/libexpat1@2.5.0-2+b2
+  From: glibc/libc-devtools@2.37-15~deb13u1 > libgd2/libgd3@2.3.3-9+b1 > fontconfig/libfontconfig1@2.14.2-6+b1 > expat/libexpat1@2.5.0-2+b2
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: CVE-2024-0853
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-CURL-6225780
+  Introduced through: curl@8.5.0-2
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2
+  From: curl@8.5.0-2
+  Fixed in: 8.6.0-1
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-317471
+  Introduced through: coreutils/coreutils@9.4-3+b1
+  From: coreutils/coreutils@9.4-3+b1
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: Race Condition
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-317495
+  Introduced through: coreutils/coreutils@9.4-3+b1
+  From: coreutils/coreutils@9.4-3+b1
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: CVE-2024-0684
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-6180568
+  Introduced through: coreutils/coreutils@9.4-3+b1
+  From: coreutils/coreutils@9.4-3+b1
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-403702
+  Introduced through: binutils/binutils-common@2.42-2, binutils/libbinutils@2.42-2, binutils/libsframe1@2.42-2, build-essential@12.10
+  From: binutils/binutils-common@2.42-2
+  From: binutils/libbinutils@2.42-2
+  From: binutils/libsframe1@2.42-2
+  and 7 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-403874
+  Introduced through: binutils/binutils-common@2.42-2, binutils/libbinutils@2.42-2, binutils/libsframe1@2.42-2, build-essential@12.10
+  From: binutils/binutils-common@2.42-2
+  From: binutils/libbinutils@2.42-2
+  From: binutils/libsframe1@2.42-2
+  and 7 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404139
+  Introduced through: binutils/binutils-common@2.42-2, binutils/libbinutils@2.42-2, binutils/libsframe1@2.42-2, build-essential@12.10
+  From: binutils/binutils-common@2.42-2
+  From: binutils/libbinutils@2.42-2
+  From: binutils/libsframe1@2.42-2
+  and 7 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404151
+  Introduced through: binutils/binutils-common@2.42-2, binutils/libbinutils@2.42-2, binutils/libsframe1@2.42-2, build-essential@12.10
+  From: binutils/binutils-common@2.42-2
+  From: binutils/libbinutils@2.42-2
+  From: binutils/libsframe1@2.42-2
+  and 7 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-404195
+  Introduced through: binutils/binutils-common@2.42-2, binutils/libbinutils@2.42-2, binutils/libsframe1@2.42-2, build-essential@12.10
+  From: binutils/binutils-common@2.42-2
+  From: binutils/libbinutils@2.42-2
+  From: binutils/libsframe1@2.42-2
+  and 7 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-BINUTILS-5803142
+  Introduced through: binutils/binutils-common@2.42-2, binutils/libbinutils@2.42-2, binutils/libsframe1@2.42-2, build-essential@12.10
+  From: binutils/binutils-common@2.42-2
+  From: binutils/libbinutils@2.42-2
+  From: binutils/libsframe1@2.42-2
+  and 7 more...
+
+✗ Low severity vulnerability found in apt/libapt-pkg6.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-APT-407503
+  Introduced through: apt/libapt-pkg6.0@2.7.10, apt@2.7.10
+  From: apt/libapt-pkg6.0@2.7.10
+  From: apt@2.7.10 > apt/libapt-pkg6.0@2.7.10
+  From: apt@2.7.10
+
+✗ Medium severity vulnerability found in openssl/libssl3
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-6148844
+  Introduced through: coreutils/coreutils@9.4-3+b1, cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1, ca-certificates@20230311, curl@8.5.0-2, build-essential@12.10, openssl@3.1.4-2
+  From: coreutils/coreutils@9.4-3+b1 > openssl/libssl3@3.1.4-2
+  From: cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1 > openssl/libssl3@3.1.4-2
+  From: ca-certificates@20230311 > openssl@3.1.4-2 > openssl/libssl3@3.1.4-2
+  and 6 more...
+  Fixed in: 3.1.5-1
+
+✗ Medium severity vulnerability found in openssl/libssl3
+  Description: CVE-2024-0727
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-6190222
+  Introduced through: coreutils/coreutils@9.4-3+b1, cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1, ca-certificates@20230311, curl@8.5.0-2, build-essential@12.10, openssl@3.1.4-2
+  From: coreutils/coreutils@9.4-3+b1 > openssl/libssl3@3.1.4-2
+  From: cyrus-sasl2/libsasl2-modules@2.1.28+dfsg1-4+b1 > openssl/libssl3@3.1.4-2
+  From: ca-certificates@20230311 > openssl@3.1.4-2 > openssl/libssl3@3.1.4-2
+  and 6 more...
+  Fixed in: 3.1.5-1
+
+✗ High severity vulnerability found in openldap/libldap-2.5-0
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENLDAP-5660619
+  Introduced through: gnupg2/dirmngr@2.2.40-1.1+b1, curl@8.5.0-2, openldap/libldap-common@2.5.13+dfsg-5
+  From: gnupg2/dirmngr@2.2.40-1.1+b1 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: curl@8.5.0-2 > curl/libcurl4@8.5.0-2 > openldap/libldap-2.5-0@2.5.13+dfsg-5+b3
+  From: openldap/libldap-common@2.5.13+dfsg-5
+
+✗ High severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-6210086
+  Introduced through: build-essential@12.10, glibc/libc-bin@2.37-15~deb13u1, glibc/libc-devtools@2.37-15~deb13u1, glibc/libc6@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > gcc-defaults/g++@4:13.2.0-7 > gcc-13/g++-13@13.2.0-13 > gcc-13/g++-13-x86-64-linux-gnu@13.2.0-13 > gcc-13/libstdc++-13-dev@13.2.0-13 > glibc/libc6-dev@2.37-15~deb13u1
+  From: build-essential@12.10 > glibc/libc6-dev@2.37-15~deb13u1 > glibc/libc-dev-bin@2.37-15~deb13u1
+  and 3 more...
+  Fixed in: 2.37-15
+
+
+
+Organization:      hogo6002
+Package manager:   deb
+Project name:      docker-image|docker-scanning-test-cargo
+Docker image:      docker-scanning-test-cargo
+Platform:          linux/amd64
+Licenses:          enabled
+
+Tested 240 dependencies for known issues, found 64 issues.
+
+Snyk wasn’t able to auto detect the base image, use `--file` option to get base image remediation advice.
+Example: $ snyk container test docker-scanning-test-cargo --file=path/to/Dockerfile
+
+To remove this message in the future, please run `snyk config set disableSuggestions=true`
+
+

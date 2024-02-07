@@ -1,0 +1,16 @@
+
+docker-scanning-test-npm (debian trixie/sid)
+============================================
+Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
+
+
+Node.js (node-pkg)
+==================
+Total: 1 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 1, CRITICAL: 0)
+
+┌──────────────────────────────┬────────────────┬──────────┬──────────┬───────────────────┬───────────────┬────────────────────────────────────────────┐
+│           Library            │ Vulnerability  │ Severity │  Status  │ Installed Version │ Fixed Version │                   Title                    │
+├──────────────────────────────┼────────────────┼──────────┼──────────┼───────────────────┼───────────────┼────────────────────────────────────────────┤
+│ static-server (package.json) │ CVE-2023-26152 │ HIGH     │ affected │ 2.2.0             │               │ static-server Path Traversal vulnerability │
+│                              │                │          │          │                   │               │ https://avd.aquasec.com/nvd/cve-2023-26152 │
+└──────────────────────────────┴────────────────┴──────────┴──────────┴───────────────────┴───────────────┴────────────────────────────────────────────┘

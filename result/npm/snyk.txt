@@ -1,0 +1,336 @@
+
+Testing docker-scanning-test-npm...
+
+✗ Low severity vulnerability found in util-linux/libblkid1
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-UTILLINUX-2401084
+  Introduced through: util-linux/libblkid1@2.39.3-6, e2fsprogs/e2fsprogs@1.47.0-2+b1, util-linux/libmount1@2.39.3-6, util-linux@2.39.3-6, util-linux/mount@2.39.3-6, util-linux/libuuid1@2.39.3-6, python3-defaults/libpython3-stdlib@3.11.6-1, util-linux/libsmartcols1@2.39.3-6, util-linux/bsdutils@1:2.39.3-6
+  From: util-linux/libblkid1@2.39.3-6
+  From: e2fsprogs/e2fsprogs@1.47.0-2+b1 > util-linux/libblkid1@2.39.3-6
+  From: util-linux/libmount1@2.39.3-6 > util-linux/libblkid1@2.39.3-6
+  and 15 more...
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-TAR-312332
+  Introduced through: tar@1.35+dfsg-3, dash@0.5.12-6
+  From: tar@1.35+dfsg-3
+  From: dash@0.5.12-6 > dpkg@1.22.4 > tar@1.35+dfsg-3
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-305145
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-5733388
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-5733394
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SYSTEMD-5733400
+  Introduced through: systemd/libsystemd0@255.3-1, apt@2.7.10, util-linux@2.39.3-6, util-linux/bsdutils@1:2.39.3-6, systemd/libudev1@255.3-1
+  From: systemd/libsystemd0@255.3-1
+  From: apt@2.7.10 > systemd/libsystemd0@255.3-1
+  From: util-linux@2.39.3-6 > systemd/libsystemd0@255.3-1
+  and 5 more...
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SQLITE3-2407040
+  Introduced through: sqlite3/libsqlite3-0@3.45.0-1, python3-defaults/libpython3-stdlib@3.11.6-1
+  From: sqlite3/libsqlite3-0@3.45.0-1
+  From: python3-defaults/libpython3-stdlib@3.11.6-1 > python3.11/libpython3.11-stdlib@3.11.7-2 > sqlite3/libsqlite3-0@3.45.0-1
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Access Restriction Bypass
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-306251
+  Introduced through: shadow/login@1:4.13+dfsg1-3+b1, shadow/passwd@1:4.13+dfsg1-3+b1
+  From: shadow/login@1:4.13+dfsg1-3+b1
+  From: shadow/passwd@1:4.13+dfsg1-3+b1
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-SHADOW-539863
+  Introduced through: shadow/login@1:4.13+dfsg1-3+b1, shadow/passwd@1:4.13+dfsg1-3+b1
+  From: shadow/login@1:4.13+dfsg1-3+b1
+  From: shadow/passwd@1:4.13+dfsg1-3+b1
+
+✗ Low severity vulnerability found in python3.11/libpython3.11-minimal
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PYTHON311-5754661
+  Introduced through: python3.11/libpython3.11-minimal@3.11.7-2, python3-defaults/libpython3-stdlib@3.11.6-1, python3-defaults/python3@3.11.6-1, python3.11/libpython3.11-stdlib@3.11.7-2, python3.11/python3.11-minimal@3.11.7-2, python3.11@3.11.7-2
+  From: python3.11/libpython3.11-minimal@3.11.7-2
+  From: python3-defaults/libpython3-stdlib@3.11.6-1 > python3.11/libpython3.11-stdlib@3.11.7-2 > python3.11/libpython3.11-minimal@3.11.7-2
+  From: python3-defaults/python3@3.11.6-1 > python3.11@3.11.7-2 > python3.11/python3.11-minimal@3.11.7-2 > python3.11/libpython3.11-minimal@3.11.7-2
+  and 8 more...
+
+✗ Low severity vulnerability found in perl/perl-base
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PERL-327794
+  Introduced through: perl/perl-base@5.38.2-3
+  From: perl/perl-base@5.38.2-3
+
+✗ Low severity vulnerability found in pam/libpam0g
+  Description: CVE-2024-22365
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PAM-6178911
+  Introduced through: pam/libpam0g@1.5.2-9.1+b1, shadow/login@1:4.13+dfsg1-3+b1, shadow/passwd@1:4.13+dfsg1-3+b1, util-linux@2.39.3-6, pam/libpam-modules@1.5.2-9.1+b1, pam/libpam-modules-bin@1.5.2-9.1+b1, pam/libpam-runtime@1.5.2-9.1
+  From: pam/libpam0g@1.5.2-9.1+b1
+  From: shadow/login@1:4.13+dfsg1-3+b1 > pam/libpam0g@1.5.2-9.1+b1
+  From: shadow/passwd@1:4.13+dfsg1-3+b1 > pam/libpam0g@1.5.2-9.1+b1
+  and 11 more...
+
+✗ Low severity vulnerability found in openssl
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-374710
+  Introduced through: npm@9.2.0~ds1-2, openssl/libssl3@3.1.4-2
+  From: npm@9.2.0~ds1-2 > ca-certificates@20230311 > openssl@3.1.4-2
+  From: npm@9.2.0~ds1-2 > node-gyp@9.3.0-3 > nodejs/libnode-dev@18.19.0+dfsg-6 > openssl/libssl-dev@3.1.4-2
+  From: openssl/libssl3@3.1.4-2
+  Image layer: 'apt-get install -y npm --no-install-recommends'
+
+✗ Low severity vulnerability found in openssl
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-374997
+  Introduced through: npm@9.2.0~ds1-2, openssl/libssl3@3.1.4-2
+  From: npm@9.2.0~ds1-2 > ca-certificates@20230311 > openssl@3.1.4-2
+  From: npm@9.2.0~ds1-2 > node-gyp@9.3.0-3 > nodejs/libnode-dev@18.19.0+dfsg-6 > openssl/libssl-dev@3.1.4-2
+  From: openssl/libssl3@3.1.4-2
+  Image layer: 'apt-get install -y npm --no-install-recommends'
+
+✗ Low severity vulnerability found in openssl
+  Description: CVE-2023-6237
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-6157245
+  Introduced through: npm@9.2.0~ds1-2, openssl/libssl3@3.1.4-2
+  From: npm@9.2.0~ds1-2 > ca-certificates@20230311 > openssl@3.1.4-2
+  From: npm@9.2.0~ds1-2 > node-gyp@9.3.0-3 > nodejs/libnode-dev@18.19.0+dfsg-6 > openssl/libssl-dev@3.1.4-2
+  From: openssl/libssl3@3.1.4-2
+  Image layer: 'apt-get install -y npm --no-install-recommends'
+  Fixed in: 3.1.5-1
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-LIBGCRYPT20-391903
+  Introduced through: libgcrypt20@1.10.3-2, apt@2.7.10
+  From: libgcrypt20@1.10.3-2
+  From: apt@2.7.10 > apt/libapt-pkg6.0@2.7.10 > libgcrypt20@1.10.3-2
+  From: apt@2.7.10 > gnupg2/gpgv@2.2.40-1.1+b1 > libgcrypt20@1.10.3-2
+  and 1 more...
+
+✗ Low severity vulnerability found in krb5/libk5crypto3
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-KRB5-395958
+  Introduced through: krb5/libk5crypto3@1.20.1-5, krb5/libgssapi-krb5-2@1.20.1-5, krb5/libkrb5support0@1.20.1-5, krb5/libkrb5-3@1.20.1-5, libnsl/libnsl2@1.3.0-3
+  From: krb5/libk5crypto3@1.20.1-5
+  From: krb5/libgssapi-krb5-2@1.20.1-5 > krb5/libk5crypto3@1.20.1-5
+  From: krb5/libgssapi-krb5-2@1.20.1-5 > krb5/libkrb5-3@1.20.1-5 > krb5/libk5crypto3@1.20.1-5
+  and 8 more...
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GNUTLS28-340756
+  Introduced through: gnutls28/libgnutls30@3.8.3-1, apt@2.7.10
+  From: gnutls28/libgnutls30@3.8.3-1
+  From: apt@2.7.10 > gnutls28/libgnutls30@3.8.3-1
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GNUPG2-3330744
+  Introduced through: gnupg2/gpgv@2.2.40-1.1+b1, apt@2.7.10
+  From: gnupg2/gpgv@2.2.40-1.1+b1
+  From: apt@2.7.10 > gnupg2/gpgv@2.2.40-1.1+b1
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-338097
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-338174
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Resource Management Errors
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-356736
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452130
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use of Insufficiently Random Values
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452151
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452711
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: CVE-2019-1010023
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-452916
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: CVE-2023-6780
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-6210093
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+  Fixed in: 2.37-15
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: CVE-2023-6779
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-6210094
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+  Fixed in: 2.37-15
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: CVE-2023-52425
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-EXPAT-6227599
+  Introduced through: expat/libexpat1@2.5.0-2+b2, python3-defaults/python3@3.11.6-1
+  From: expat/libexpat1@2.5.0-2+b2
+  From: python3-defaults/python3@3.11.6-1 > python3.11@3.11.7-2 > python3.11/python3.11-minimal@3.11.7-2 > expat/libexpat1@2.5.0-2+b2
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: CVE-2023-52426
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-EXPAT-6227600
+  Introduced through: expat/libexpat1@2.5.0-2+b2, python3-defaults/python3@3.11.6-1
+  From: expat/libexpat1@2.5.0-2+b2
+  From: python3-defaults/python3@3.11.6-1 > python3.11@3.11.7-2 > python3.11/python3.11-minimal@3.11.7-2 > expat/libexpat1@2.5.0-2+b2
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-317471
+  Introduced through: coreutils/coreutils@9.4-3+b1
+  From: coreutils/coreutils@9.4-3+b1
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: Race Condition
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-317495
+  Introduced through: coreutils/coreutils@9.4-3+b1
+  From: coreutils/coreutils@9.4-3+b1
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: CVE-2024-0684
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-COREUTILS-6180568
+  Introduced through: coreutils/coreutils@9.4-3+b1
+  From: coreutils/coreutils@9.4-3+b1
+
+✗ Low severity vulnerability found in apt/libapt-pkg6.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-APT-407503
+  Introduced through: apt/libapt-pkg6.0@2.7.10, apt@2.7.10
+  From: apt/libapt-pkg6.0@2.7.10
+  From: apt@2.7.10 > apt/libapt-pkg6.0@2.7.10
+  From: apt@2.7.10
+
+✗ Medium severity vulnerability found in python3.11/libpython3.11-minimal
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-PYTHON311-5430938
+  Introduced through: python3.11/libpython3.11-minimal@3.11.7-2, python3-defaults/libpython3-stdlib@3.11.6-1, python3-defaults/python3@3.11.6-1, python3.11/libpython3.11-stdlib@3.11.7-2, python3.11/python3.11-minimal@3.11.7-2, python3.11@3.11.7-2
+  From: python3.11/libpython3.11-minimal@3.11.7-2
+  From: python3-defaults/libpython3-stdlib@3.11.6-1 > python3.11/libpython3.11-stdlib@3.11.7-2 > python3.11/libpython3.11-minimal@3.11.7-2
+  From: python3-defaults/python3@3.11.6-1 > python3.11@3.11.7-2 > python3.11/python3.11-minimal@3.11.7-2 > python3.11/libpython3.11-minimal@3.11.7-2
+  and 8 more...
+
+✗ Medium severity vulnerability found in openssl
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-6148844
+  Introduced through: npm@9.2.0~ds1-2, openssl/libssl3@3.1.4-2
+  From: npm@9.2.0~ds1-2 > ca-certificates@20230311 > openssl@3.1.4-2
+  From: npm@9.2.0~ds1-2 > node-gyp@9.3.0-3 > nodejs/libnode-dev@18.19.0+dfsg-6 > openssl/libssl-dev@3.1.4-2
+  From: openssl/libssl3@3.1.4-2
+  Image layer: 'apt-get install -y npm --no-install-recommends'
+  Fixed in: 3.1.5-1
+
+✗ Medium severity vulnerability found in openssl
+  Description: CVE-2024-0727
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-OPENSSL-6190222
+  Introduced through: npm@9.2.0~ds1-2, openssl/libssl3@3.1.4-2
+  From: npm@9.2.0~ds1-2 > ca-certificates@20230311 > openssl@3.1.4-2
+  From: npm@9.2.0~ds1-2 > node-gyp@9.3.0-3 > nodejs/libnode-dev@18.19.0+dfsg-6 > openssl/libssl-dev@3.1.4-2
+  From: openssl/libssl3@3.1.4-2
+  Image layer: 'apt-get install -y npm --no-install-recommends'
+  Fixed in: 3.1.5-1
+
+✗ High severity vulnerability found in glibc/libc-bin
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIANUNSTABLE-GLIBC-6210086
+  Introduced through: glibc/libc-bin@2.37-14, glibc/libc6@2.37-14
+  From: glibc/libc-bin@2.37-14
+  From: glibc/libc6@2.37-14
+  Fixed in: 2.37-15
+
+
+
+Organization:      hogo6002
+Package manager:   deb
+Project name:      docker-image|docker-scanning-test-npm
+Docker image:      docker-scanning-test-npm
+Platform:          linux/amd64
+Licenses:          enabled
+
+Tested 474 dependencies for known issues, found 38 issues.
+
+Snyk wasn’t able to auto detect the base image, use `--file` option to get base image remediation advice.
+Example: $ snyk container test docker-scanning-test-npm --file=path/to/Dockerfile
+
+To remove this message in the future, please run `snyk config set disableSuggestions=true`
+
+-------------------------------------------------------
+
+Testing docker-scanning-test-npm...
+
+Organization:      hogo6002
+Package manager:   npm
+Target file:       /src/src/package.json
+Project name:      test-npm
+Docker image:      docker-scanning-test-npm
+Licenses:          enabled
+
+✔ Tested 1 dependencies for known issues, no vulnerable paths found.
+
+
+Tested 2 projects, 1 contained vulnerable paths.
+
+
+

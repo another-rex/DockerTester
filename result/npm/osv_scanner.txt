@@ -1,0 +1,7 @@
+Scanning dir ./docker/npm/
+Scanned /usr/local/google/home/gongh/Desktop/code/DockerTester/docker/npm/src/package-lock.json file and found 13 packages
++-------------------------------------+------+-----------+---------------+---------+----------------------------------+
+| OSV URL                             | CVSS | ECOSYSTEM | PACKAGE       | VERSION | SOURCE                           |
++-------------------------------------+------+-----------+---------------+---------+----------------------------------+
+| https://osv.dev/GHSA-v834-rhv4-65m3 | 7.5  | npm       | static-server | 2.2.0   | docker/npm/src/package-lock.json |
++-------------------------------------+------+-----------+---------------+---------+----------------------------------+

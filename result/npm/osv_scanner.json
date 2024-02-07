@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "/usr/local/google/home/gongh/Desktop/code/DockerTester/docker/npm/src/package-lock.json",
+        "type": "lockfile"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "static-server",
+            "version": "2.2.0",
+            "ecosystem": "npm"
+          },
+          "vulnerabilities": [
+            {
+              "modified": "2023-11-08T04:12:00Z",
+              "published": "2023-10-03T06:30:26Z",
+              "schema_version": "1.6.0",
+              "id": "GHSA-v834-rhv4-65m3",
+              "aliases": [
+                "CVE-2023-26152"
+              ],
+              "summary": "static-server Path Traversal vulnerability",
+              "details": "All versions of the package static-server are vulnerable to Directory Traversal due to improper input sanitization passed via the validPath function of server.js.",
+              "affected": [
+                {
+                  "package": {
+                    "ecosystem": "npm",
+                    "name": "static-server",
+                    "purl": "pkg:npm/static-server"
+                  },
+                  "ranges": [
+                    {
+                      "type": "SEMVER",
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "last_affected": "2.2.1"
+                        }
+                      ]
+                    }
+                  ],
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-v834-rhv4-65m3/GHSA-v834-rhv4-65m3.json"
+                  }
+                }
+              ],
+              "severity": [
+                {
+                  "type": "CVSS_V3",
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+                }
+              ],
+              "references": [
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-26152"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://gist.github.com/lirantal/1f7021703a2065ecaf9ec9e06a3a346d"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/nbluis/static-server"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/nbluis/static-server/blob/master/server.js#L218-L223"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.snyk.io/vuln/SNYK-JS-STATICSERVER-5722341"
+                }
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-22"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2023-10-04T14:43:33Z",
+                "nvd_published_at": "2023-10-03T05:15:50Z",
+                "severity": "HIGH"
+              }
+            }
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-v834-rhv4-65m3"
+              ],
+              "aliases": [
+                "CVE-2023-26152",
+                "GHSA-v834-rhv4-65m3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}

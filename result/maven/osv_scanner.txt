@@ -1,0 +1,9 @@
+Scanning dir ./docker/maven/
+Scanned /usr/local/google/home/gongh/Desktop/code/DockerTester/docker/maven/src/pom.xml file and found 2 packages
++-------------------------------------+------+-----------+----------------------------------+------------------+--------------------------+
+| OSV URL                             | CVSS | ECOSYSTEM | PACKAGE                          | VERSION          | SOURCE                   |
++-------------------------------------+------+-----------+----------------------------------+------------------+--------------------------+
+| https://osv.dev/GHSA-269g-pwp5-87pp | 4.4  | Maven     | junit:junit (dev)                | 4.11             | docker/maven/src/pom.xml |
+| https://osv.dev/GHSA-3gh6-v5v9-6v9j | 3.5  | Maven     | org.eclipse.jetty:jetty-servlets | 9.4.40.v20210413 | docker/maven/src/pom.xml |
+| https://osv.dev/GHSA-gwcr-j4wh-j3cq | 5.3  | Maven     | org.eclipse.jetty:jetty-servlets | 9.4.40.v20210413 | docker/maven/src/pom.xml |
++-------------------------------------+------+-----------+----------------------------------+------------------+--------------------------+

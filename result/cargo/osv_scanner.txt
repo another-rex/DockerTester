@@ -1,0 +1,13 @@
+Scanning dir ./docker/cargo/
+Scanned /usr/local/google/home/gongh/Desktop/code/DockerTester/docker/cargo/example/Cargo.lock file and found 34 packages
+Scanning directory for vendored libs: /usr/local/google/home/gongh/Desktop/code/DockerTester/docker/cargo/example/target/debug/deps
+Scanning directory for vendored libs: /usr/local/google/home/gongh/Desktop/code/DockerTester/docker/cargo/example/target/release/deps
+Begin building rust/cargo project
++-------------------------------------+------+-----------+---------+---------+---------------------------------+
+| OSV URL                             | CVSS | ECOSYSTEM | PACKAGE | VERSION | SOURCE                          |
++-------------------------------------+------+-----------+---------+---------+---------------------------------+
+| https://osv.dev/GHSA-8r5v-vm4m-4g25 |      | crates.io | h2      | 0.3.23  | docker/cargo/example/Cargo.lock |
+| https://osv.dev/RUSTSEC-2024-0003   |      | crates.io | h2      | 0.3.23  | docker/cargo/example/Cargo.lock |
+| https://osv.dev/GHSA-r7qv-8r2h-pg27 |      | crates.io | shlex   | 1.2.0   | docker/cargo/example/Cargo.lock |
+| https://osv.dev/RUSTSEC-2024-0006   |      |           |         |         |                                 |
++-------------------------------------+------+-----------+---------+---------+---------------------------------+

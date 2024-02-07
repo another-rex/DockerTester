@@ -1,0 +1,1235 @@
+{
+  "results": [
+    {
+      "source": {
+        "path": "/usr/local/google/home/gongh/Desktop/code/DockerTester/docker/maven/src/pom.xml",
+        "type": "lockfile"
+      },
+      "packages": [
+        {
+          "package": {
+            "name": "junit:junit",
+            "version": "4.11",
+            "ecosystem": "Maven"
+          },
+          "dependency_groups": [
+            "test"
+          ],
+          "vulnerabilities": [
+            {
+              "modified": "2023-11-08T04:02:35Z",
+              "published": "2020-10-12T17:33:00Z",
+              "schema_version": "1.6.0",
+              "id": "GHSA-269g-pwp5-87pp",
+              "aliases": [
+                "CVE-2020-15250"
+              ],
+              "summary": "TemporaryFolder on unix-like systems does not limit access to created files",
+              "details": "### Vulnerability\n\nThe JUnit4 test rule [TemporaryFolder](https://junit.org/junit4/javadoc/4.13/org/junit/rules/TemporaryFolder.html) contains a local information disclosure vulnerability.\n\nExample of vulnerable code:\n```java\npublic static class HasTempFolder {\n    @Rule\n    public TemporaryFolder folder = new TemporaryFolder();\n\n    @Test\n    public void testUsingTempFolder() throws IOException {\n        folder.getRoot(); // Previous file permissions: `drwxr-xr-x`; After fix:`drwx------`\n        File createdFile= folder.newFile(\"myfile.txt\"); // unchanged/irrelevant file permissions\n        File createdFolder= folder.newFolder(\"subfolder\"); // unchanged/irrelevant file permissions\n        // ...\n    }\n}\n```\n\n### Impact\n\nOn Unix like systems, the system's temporary directory is shared between all users on that system. Because of this, when files and directories are written into this directory they are, by default, readable by other users on that same system.\n\nThis vulnerability **does not** allow other users to overwrite the contents of these directories or files. This is purely an information disclosure vulnerability.\n\nWhen analyzing the impact of this vulnerability, here are the important questions to ask:\n\n1. Do the JUnit tests write sensitive information, like API keys or passwords, into the temporary folder?\n    - If yes, this vulnerability impacts you, but only if you also answer 'yes' to question 2.\n    - If no, this vulnerability does not impact you.\n2. Do the JUnit tests ever execute in an environment where the OS has other untrusted users. \n    _This may apply in CI/CD environments but normally won't be 'yes' for personal developer machines._\n    - If yes, and you answered 'yes' to question 1, this vulnerability impacts you.\n    - If no, this vulnerability does not impact you.\n\n### Patches\n\nBecause certain JDK file system APIs were only added in JDK 1.7, this this fix is dependent upon the version of the JDK you are using.\n - Java 1.7 and higher users: this vulnerability is fixed in 4.13.1.\n - Java 1.6 and lower users: **no patch is available, you must use the workaround below.**\n\n### Workarounds\n\nIf you are unable to patch, or are stuck running on Java 1.6, specifying the `java.io.tmpdir` system environment variable to a directory that is exclusively owned by the executing user will fix this vulnerability.\n\n### References\n- [CWE-200: Exposure of Sensitive Information to an Unauthorized Actor](https://cwe.mitre.org/data/definitions/200.html)\n- Fix commit https://github.com/junit-team/junit4/commit/610155b8c22138329f0723eec22521627dbc52ae\n\n#### Similar Vulnerabilities\n - Google Guava - https://github.com/google/guava/issues/4011\n - Apache Ant - https://nvd.nist.gov/vuln/detail/CVE-2020-1945\n - JetBrains Kotlin Compiler - https://nvd.nist.gov/vuln/detail/CVE-2020-15824\n\n### For more information\nIf you have any questions or comments about this advisory, please pen an issue in [junit-team/junit4](https://github.com/junit-team/junit4/issues).",
+              "affected": [
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "junit:junit",
+                    "purl": "pkg:maven/junit/junit"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "4.7"
+                        },
+                        {
+                          "fixed": "4.13.1"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "4.10",
+                    "4.11",
+                    "4.11-beta-1",
+                    "4.12",
+                    "4.12-beta-1",
+                    "4.12-beta-2",
+                    "4.12-beta-3",
+                    "4.13",
+                    "4.13-beta-1",
+                    "4.13-beta-2",
+                    "4.13-beta-3",
+                    "4.13-rc-1",
+                    "4.13-rc-2",
+                    "4.7",
+                    "4.8",
+                    "4.8.1",
+                    "4.8.2",
+                    "4.9"
+                  ],
+                  "database_specific": {
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2020/10/GHSA-269g-pwp5-87pp/GHSA-269g-pwp5-87pp.json"
+                  }
+                }
+              ],
+              "severity": [
+                {
+                  "type": "CVSS_V3",
+                  "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N"
+                }
+              ],
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/junit-team/junit4/security/advisories/GHSA-269g-pwp5-87pp"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-15250"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/junit-team/junit4/issues/1676"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/junit-team/junit4/commit/610155b8c22138329f0723eec22521627dbc52ae"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/junit-team/junit4"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/junit-team/junit4/blob/7852b90cfe1cea1e0cdaa19d490c83f0d8684b50/doc/ReleaseNotes4.13.1.md"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://junit.org/junit4/javadoc/4.13/org/junit/rules/TemporaryFolder.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r01110833b63616ddbef59ae4e10c0fbd0060f0a51206defd4cb4d917@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r09cfbb5aedd76023691bbce9ca4ce2e16bb07dd37554a17efc19935d@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r1209986f79359b518d09513ff05a88e5b3c398540e775edea76a4774@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r29d703d1986d9b871466ff24082a1828ac8ad27bb0965a93a383872e@%3Cpluto-scm.portals.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r2b78f23bc2711a76a7fc73ad67b7fcd6817c5cfccefd6f30a4f54943@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r30f502d2f79e8d635361adb8108dcbb73095163fcbd776ee7984a094@%3Ccommits.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r500517c23200fb2fdb0b82770a62dd6c88b3521cfb01cfd0c76e3f8b@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r5f8841507576f595bb783ccec6a7cb285ea90d4e6f5043eae0e61a41@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r687f489b10b0d14e46f626aa88476545e1a2600b24c4ebd3c0d2a10b@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r717877028482c55acf604d7a0106af4ca05da4208c708fb157b53672@%3Ccommits.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r742b44fd75215fc75963b8ecc22b2e4372e68d67d3d859d2b5e8743f@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r8b02dc6f18df11ff39eedb3038f1e31e6f90a779b1959bae65107279@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r925eaae7dd8f77dd61eefc49c1fcf54bd9ecfe605486870d7b1e9390@%3Cpluto-dev.portals.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r934208a520b38f5cf0cae199b6b076bfe7d081809528b0eff2459e40@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r95f8ef60c4b3a5284b647bb3132cda08e6fadad888a66b84f49da0b0@%3Ccommits.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r9710067c7096b83cb6ae8f53a2f6f94e9c042d1bf1d6929f8f2a2b7a@%3Ccommits.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/ra1bdb9efae84794e8ffa2f8474be8290ba57830eefe9714b95da714b@%3Cdev.pdfbox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/raebf13f53cd5d23d990712e3d11c80da9a7bae94a6284050f148ed99@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb2771949c676ca984e58a5cd5ca79c2634dee1945e0406e48e0f8457@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb2ffe2993f4dccc48d832e1a0f1c419477781b6ea16e725ca2276dbb@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb33212dab7beccaf1ffef9b88610047c644f644c7a0ebdc44d77e381@%3Ccommits.turbine.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rbaec90e699bc7c7bd9a053f76707a36fda48b6d558f31dc79147dbf9@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rc49cf1547ef6cac1be4b3c92339b2cae0acacf5acaba13cfa429a872@%3Cdev.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rdbdd30510a7c4d0908fd22075c02b75bbc2e0d977ec22249ef3133cb@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rde385b8b53ed046600ef68dd6b4528dea7566aaddb02c3e702cc28bc@%3Ccommits.creadur.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rde8e70b95c992378e8570e4df400c6008a9839eabdfb8f800a3e5af6@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rdef7d1380c86e7c0edf8a0f89a2a8db86fce5e363457d56b722691b4@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rea812d8612fdc46842a2a57248cad4b01ddfdb1e9b037c49e68fdbfb@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/reb700e60b9642eafa4b7922bfee80796394135aa09c7a239ef9f7486@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf2ec93f4ca9a97d1958eb4a31b1830f723419ce9bf2018a6e5741d5b@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf6e5d894d4b03bef537c9d6641272e0197c047c0d1982b4e176d0353@%3Cdev.knox.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf797d119cc3f51a8d7c3c5cbe50cb4524c8487282b986edde83a9467@%3Ccommits.pulsar.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.debian.org/debian-lts-announce/2020/11/msg00003.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                }
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-200",
+                  "CWE-732"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2020-10-12T17:32:34Z",
+                "nvd_published_at": "2020-10-12T18:15:00Z",
+                "severity": "MODERATE"
+              }
+            }
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-269g-pwp5-87pp"
+              ],
+              "aliases": [
+                "CVE-2020-15250",
+                "GHSA-269g-pwp5-87pp"
+              ]
+            }
+          ]
+        },
+        {
+          "package": {
+            "name": "org.eclipse.jetty:jetty-servlets",
+            "version": "9.4.40.v20210413",
+            "ecosystem": "Maven"
+          },
+          "vulnerabilities": [
+            {
+              "modified": "2023-11-08T04:12:57Z",
+              "published": "2023-09-14T16:16:00Z",
+              "schema_version": "1.6.0",
+              "id": "GHSA-3gh6-v5v9-6v9j",
+              "aliases": [
+                "CVE-2023-36479"
+              ],
+              "summary": "Jetty vulnerable to errant command quoting in CGI Servlet",
+              "details": "If a user sends a request to a `org.eclipse.jetty.servlets.CGI` Servlet for a binary with a space in its name, the servlet will escape the command by wrapping it in quotation marks. This wrapped command, plus an optional command prefix, will then be executed through a call to Runtime.exec. If the original binary name provided by the user contains a quotation mark followed by a space, the resulting command line will contain multiple tokens instead of one. For example, if a request references a binary called file” name “here, the escaping algorithm will generate the command line string “file” name “here”, which will invoke the binary named file, not the one that the user requested.\n\n```java\nif (execCmd.length() \u003e 0 \u0026\u0026 execCmd.charAt(0) != '\"' \u0026\u0026 execCmd.contains(\" \"))\nexecCmd = \"\\\"\" + execCmd + \"\\\"\";\n```\n\n### Exploit Scenario\nThe cgi-bin directory contains a binary named exec and a subdirectory named exec” commands, which contains a file called bin1. The user sends to the CGI servlet a request for the filename exec” commands/bin1. This request will pass the file existence check on lines 194 through 205. The servlet will add quotation marks around this filename, resulting in the command line string “exec” commands/bin1”. When this string is passed to Runtime.exec, instead of executing the bin1 binary, the server will execute the exec\nbinary with the argument commands/file1”. In addition to being incorrect, this behavior may bypass alias checks, and it may cause other unintended behaviors if a command prefix is configured.\n\nIf the useFullPath configuration setting is off, the command need not pass the existence check. The attack would not rely on a binary and subdirectory having similar names, and the attack will succeed on a much wider variety of directory structures.\n\n### Impact\nUsers of the `org.eclipse.jetty.servlets.CGI` Servlet with a very specific command structure may have the wrong command executed.\n\n### Patches\nNo patch.\nIn Jetty 9.x, 10.x, and 11.x the `org.eclipse.jetty.servlets.CGI` has been deprecated.\nIn Jetty 12 (all environments) the `org.eclipse.jetty.servlets.CGI` has been entirely removed.\n\n### Workarounds\nThe `org.eclipse.jetty.servlets.CGI` Servlet should not be used. Fast CGI support is available instead.\n\n### References\n* https://github.com/eclipse/jetty.project/pull/9516\n* https://github.com/eclipse/jetty.project/pull/9889\n* https://github.com/eclipse/jetty.project/pull/9888",
+              "affected": [
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty:jetty-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "9.0.0"
+                        },
+                        {
+                          "fixed": "9.4.52"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "9.0.0.v20130308",
+                    "9.0.1.v20130408",
+                    "9.0.2.v20130417",
+                    "9.0.3.v20130506",
+                    "9.0.4.v20130625",
+                    "9.0.5.v20130815",
+                    "9.0.6.v20130930",
+                    "9.0.7.v20131107",
+                    "9.1.0.M0",
+                    "9.1.0.RC0",
+                    "9.1.0.RC1",
+                    "9.1.0.RC2",
+                    "9.1.0.v20131115",
+                    "9.1.1.v20140108",
+                    "9.1.2.v20140210",
+                    "9.1.3.v20140225",
+                    "9.1.4.v20140401",
+                    "9.1.5.v20140505",
+                    "9.1.6.v20160112",
+                    "9.2.0.M0",
+                    "9.2.0.M1",
+                    "9.2.0.RC0",
+                    "9.2.0.v20140526",
+                    "9.2.1.v20140609",
+                    "9.2.10.v20150310",
+                    "9.2.11.M0",
+                    "9.2.11.v20150529",
+                    "9.2.12.M0",
+                    "9.2.12.v20150709",
+                    "9.2.13.v20150730",
+                    "9.2.14.v20151106",
+                    "9.2.15.v20160210",
+                    "9.2.16.v20160414",
+                    "9.2.17.v20160517",
+                    "9.2.18.v20160721",
+                    "9.2.19.v20160908",
+                    "9.2.2.v20140723",
+                    "9.2.20.v20161216",
+                    "9.2.21.v20170120",
+                    "9.2.22.v20170606",
+                    "9.2.23.v20171218",
+                    "9.2.24.v20180105",
+                    "9.2.25.v20180606",
+                    "9.2.26.v20180806",
+                    "9.2.27.v20190403",
+                    "9.2.28.v20190418",
+                    "9.2.29.v20191105",
+                    "9.2.3.v20140905",
+                    "9.2.30.v20200428",
+                    "9.2.4.v20141103",
+                    "9.2.5.v20141112",
+                    "9.2.6.v20141205",
+                    "9.2.7.v20150116",
+                    "9.2.8.v20150217",
+                    "9.2.9.v20150224",
+                    "9.3.0.M0",
+                    "9.3.0.M1",
+                    "9.3.0.M2",
+                    "9.3.0.RC0",
+                    "9.3.0.RC1",
+                    "9.3.0.v20150612",
+                    "9.3.1.v20150714",
+                    "9.3.10.M0",
+                    "9.3.10.v20160621",
+                    "9.3.11.M0",
+                    "9.3.11.v20160721",
+                    "9.3.12.v20160915",
+                    "9.3.13.M0",
+                    "9.3.13.v20161014",
+                    "9.3.14.v20161028",
+                    "9.3.15.v20161220",
+                    "9.3.16.v20170120",
+                    "9.3.17.RC0",
+                    "9.3.17.v20170317",
+                    "9.3.18.v20170406",
+                    "9.3.19.v20170502",
+                    "9.3.2.v20150730",
+                    "9.3.20.v20170531",
+                    "9.3.21.M0",
+                    "9.3.21.RC0",
+                    "9.3.21.v20170918",
+                    "9.3.22.v20171030",
+                    "9.3.23.v20180228",
+                    "9.3.24.v20180605",
+                    "9.3.25.v20180904",
+                    "9.3.26.v20190403",
+                    "9.3.27.v20190418",
+                    "9.3.28.v20191105",
+                    "9.3.29.v20201019",
+                    "9.3.3.v20150827",
+                    "9.3.30.v20211001",
+                    "9.3.4.RC0",
+                    "9.3.4.RC1",
+                    "9.3.4.v20151007",
+                    "9.3.5.v20151012",
+                    "9.3.6.v20151106",
+                    "9.3.7.RC0",
+                    "9.3.7.RC1",
+                    "9.3.7.v20160115",
+                    "9.3.8.RC0",
+                    "9.3.8.v20160314",
+                    "9.3.9.M0",
+                    "9.3.9.M1",
+                    "9.3.9.v20160517",
+                    "9.4.0.M0",
+                    "9.4.0.M1",
+                    "9.4.0.RC0",
+                    "9.4.0.RC1",
+                    "9.4.0.RC2",
+                    "9.4.0.RC3",
+                    "9.4.0.v20161208",
+                    "9.4.0.v20180619",
+                    "9.4.1.v20170120",
+                    "9.4.1.v20180619",
+                    "9.4.10.RC0",
+                    "9.4.10.RC1",
+                    "9.4.10.v20180503",
+                    "9.4.11.v20180605",
+                    "9.4.12.RC0",
+                    "9.4.12.RC1",
+                    "9.4.12.RC2",
+                    "9.4.12.v20180830",
+                    "9.4.13.v20181111",
+                    "9.4.14.v20181114",
+                    "9.4.15.v20190215",
+                    "9.4.16.v20190411",
+                    "9.4.17.v20190418",
+                    "9.4.18.v20190429",
+                    "9.4.19.v20190610",
+                    "9.4.2.v20170220",
+                    "9.4.2.v20180619",
+                    "9.4.20.v20190813",
+                    "9.4.21.v20190926",
+                    "9.4.22.v20191022",
+                    "9.4.23.v20191118",
+                    "9.4.24.v20191120",
+                    "9.4.25.v20191220",
+                    "9.4.26.v20200117",
+                    "9.4.27.v20200227",
+                    "9.4.28.v20200408",
+                    "9.4.29.v20200521",
+                    "9.4.3.v20170317",
+                    "9.4.3.v20180619",
+                    "9.4.30.v20200611",
+                    "9.4.31.v20200723",
+                    "9.4.32.v20200930",
+                    "9.4.33.v20201020",
+                    "9.4.34.v20201102",
+                    "9.4.35.v20201120",
+                    "9.4.36.v20210114",
+                    "9.4.37.v20210219",
+                    "9.4.38.v20210224",
+                    "9.4.39.v20210325",
+                    "9.4.4.v20170414",
+                    "9.4.4.v20180619",
+                    "9.4.40.v20210413",
+                    "9.4.41.v20210516",
+                    "9.4.42.v20210604",
+                    "9.4.43.v20210629",
+                    "9.4.44.v20210927",
+                    "9.4.45.v20220203",
+                    "9.4.46.v20220331",
+                    "9.4.47.v20220610",
+                    "9.4.48.v20220622",
+                    "9.4.49.v20220914",
+                    "9.4.5.v20170502",
+                    "9.4.5.v20180619",
+                    "9.4.50.v20221201",
+                    "9.4.51.v20230217",
+                    "9.4.6.v20170531",
+                    "9.4.6.v20180619",
+                    "9.4.7.RC0",
+                    "9.4.7.v20170914",
+                    "9.4.7.v20180619",
+                    "9.4.8.v20171121",
+                    "9.4.8.v20180619",
+                    "9.4.9.v20180320"
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 9.4.51",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-3gh6-v5v9-6v9j/GHSA-3gh6-v5v9-6v9j.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty:jetty-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "10.0.0"
+                        },
+                        {
+                          "fixed": "10.0.16"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "10.0.0",
+                    "10.0.1",
+                    "10.0.10",
+                    "10.0.11",
+                    "10.0.12",
+                    "10.0.13",
+                    "10.0.14",
+                    "10.0.15",
+                    "10.0.2",
+                    "10.0.3",
+                    "10.0.4",
+                    "10.0.5",
+                    "10.0.6",
+                    "10.0.7",
+                    "10.0.8",
+                    "10.0.9"
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 10.0.15",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-3gh6-v5v9-6v9j/GHSA-3gh6-v5v9-6v9j.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty:jetty-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "11.0.0"
+                        },
+                        {
+                          "fixed": "11.0.16"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "11.0.0",
+                    "11.0.1",
+                    "11.0.10",
+                    "11.0.11",
+                    "11.0.12",
+                    "11.0.13",
+                    "11.0.14",
+                    "11.0.15",
+                    "11.0.2",
+                    "11.0.3",
+                    "11.0.4",
+                    "11.0.5",
+                    "11.0.6",
+                    "11.0.7",
+                    "11.0.8",
+                    "11.0.9"
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 11.0.15",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-3gh6-v5v9-6v9j/GHSA-3gh6-v5v9-6v9j.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty.ee10:jetty-ee10-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty.ee10/jetty-ee10-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "12.0.0-beta2"
+                        }
+                      ]
+                    }
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 12.0.0-beta1",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-3gh6-v5v9-6v9j/GHSA-3gh6-v5v9-6v9j.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty.ee9:jetty-ee9-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty.ee9/jetty-ee9-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "12.0.0-beta2"
+                        }
+                      ]
+                    }
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 12.0.0-beta1",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-3gh6-v5v9-6v9j/GHSA-3gh6-v5v9-6v9j.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty.ee8:jetty-ee8-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "12.0.0-beta2"
+                        }
+                      ]
+                    }
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 12.0.0-beta1",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/09/GHSA-3gh6-v5v9-6v9j/GHSA-3gh6-v5v9-6v9j.json"
+                  }
+                }
+              ],
+              "severity": [
+                {
+                  "type": "CVSS_V3",
+                  "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N"
+                }
+              ],
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/eclipse/jetty.project/security/advisories/GHSA-3gh6-v5v9-6v9j"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36479"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/eclipse/jetty.project/pull/9516"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/eclipse/jetty.project/pull/9888"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/eclipse/jetty.project/pull/9889"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/eclipse/jetty.project"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.debian.org/debian-lts-announce/2023/09/msg00039.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.debian.org/security/2023/dsa-5507"
+                }
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-149"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2023-09-14T16:16:00Z",
+                "nvd_published_at": "2023-09-15T19:15:08Z",
+                "severity": "LOW"
+              }
+            },
+            {
+              "modified": "2023-11-08T04:05:29Z",
+              "published": "2021-06-10T15:43:22Z",
+              "schema_version": "1.6.0",
+              "id": "GHSA-gwcr-j4wh-j3cq",
+              "aliases": [
+                "CVE-2021-28169"
+              ],
+              "summary": "Jetty Utility Servlets ConcatServlet Double Decoding Information Disclosure Vulnerability",
+              "details": "Requests to the `ConcatServlet` and `WelcomeFilter` are able to access protected resources within the `WEB-INF` directory. For example a request to the `ConcatServlet` with a URI of `/concat?/%2557EB-INF/web.xml` can retrieve the web.xml file. This can reveal sensitive information regarding the implementation of a web application.\n\nThis occurs because both `ConcatServlet` and `WelcomeFilter` decode the supplied path to verify it is not within the `WEB-INF` or `META-INF` directories. It then uses this decoded path to call `RequestDispatcher` which will also do decoding of the path. This double decoding allows paths with a doubly encoded `WEB-INF` to bypass this security check.\n\n### Impact\nThis affects all versions of `ConcatServlet` and `WelcomeFilter` in versions before 9.4.41, 10.0.3 and 11.0.3.\n\n### Workarounds\n\nIf you cannot update to the latest version of Jetty, you can instead deploy your own version of the [`ConcatServlet`](https://github.com/eclipse/jetty.project/blob/4204526d2fdad355e233f6bf18a44bfe028ee00b/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/ConcatServlet.java) and/or the [`WelcomeFilter`](https://github.com/eclipse/jetty.project/blob/4204526d2fdad355e233f6bf18a44bfe028ee00b/jetty-servlets/src/main/java/org/eclipse/jetty/servlets/WelcomeFilter.java) by using the code from the latest version of Jetty.\n",
+              "affected": [
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty:jetty-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "0"
+                        },
+                        {
+                          "fixed": "9.4.41"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "7.0.0.M0",
+                    "7.0.0.M1",
+                    "7.0.0.M2",
+                    "7.0.0.M3",
+                    "7.0.0.M4",
+                    "7.0.0.RC0",
+                    "7.0.0.RC1",
+                    "7.0.0.RC2",
+                    "7.0.0.RC3",
+                    "7.0.0.RC4",
+                    "7.0.0.RC5",
+                    "7.0.0.RC6",
+                    "7.0.0.v20091005",
+                    "7.0.1.v20091125",
+                    "7.0.2.RC0",
+                    "7.0.2.v20100331",
+                    "7.1.0.RC0",
+                    "7.1.0.RC1",
+                    "7.1.0.v20100505",
+                    "7.1.1.v20100517",
+                    "7.1.2.v20100523",
+                    "7.1.3.v20100526",
+                    "7.1.4.v20100610",
+                    "7.1.5.v20100705",
+                    "7.1.6.v20100715",
+                    "7.2.0.RC0",
+                    "7.2.0.v20101020",
+                    "7.2.1.v20101111",
+                    "7.2.2.v20101205",
+                    "7.3.0.v20110203",
+                    "7.3.1.v20110307",
+                    "7.4.0.RC0",
+                    "7.4.0.v20110414",
+                    "7.4.1.v20110513",
+                    "7.4.2.v20110526",
+                    "7.4.3.v20110701",
+                    "7.4.4.v20110707",
+                    "7.4.5.v20110725",
+                    "7.5.0.RC0",
+                    "7.5.0.RC1",
+                    "7.5.0.RC2",
+                    "7.5.0.v20110901",
+                    "7.5.1.v20110908",
+                    "7.5.2.v20111006",
+                    "7.5.3.v20111011",
+                    "7.5.4.v20111024",
+                    "7.6.0.RC0",
+                    "7.6.0.RC1",
+                    "7.6.0.RC2",
+                    "7.6.0.RC3",
+                    "7.6.0.RC4",
+                    "7.6.0.RC5",
+                    "7.6.0.v20120127",
+                    "7.6.1.v20120215",
+                    "7.6.10.v20130312",
+                    "7.6.11.v20130520",
+                    "7.6.12.v20130726",
+                    "7.6.13.v20130916",
+                    "7.6.14.v20131031",
+                    "7.6.15.v20140411",
+                    "7.6.16.v20140903",
+                    "7.6.17.v20150415",
+                    "7.6.18.v20150929",
+                    "7.6.19.v20160209",
+                    "7.6.2.v20120308",
+                    "7.6.20.v20160902",
+                    "7.6.21.v20160908",
+                    "7.6.3.v20120416",
+                    "7.6.4.v20120524",
+                    "7.6.5.v20120716",
+                    "7.6.6.v20120903",
+                    "7.6.7.v20120910",
+                    "7.6.8.v20121106",
+                    "7.6.9.v20130131",
+                    "8.0.0.M0",
+                    "8.0.0.M1",
+                    "8.0.0.M2",
+                    "8.0.0.M3",
+                    "8.0.0.RC0",
+                    "8.0.0.v20110901",
+                    "8.0.1.v20110908",
+                    "8.0.2.v20111006",
+                    "8.0.3.v20111011",
+                    "8.0.4.v20111024",
+                    "8.1.0.RC0",
+                    "8.1.0.RC1",
+                    "8.1.0.RC2",
+                    "8.1.0.RC4",
+                    "8.1.0.RC5",
+                    "8.1.0.v20120127",
+                    "8.1.1.v20120215",
+                    "8.1.10.v20130312",
+                    "8.1.11.v20130520",
+                    "8.1.12.v20130726",
+                    "8.1.13.v20130916",
+                    "8.1.14.v20131031",
+                    "8.1.15.v20140411",
+                    "8.1.16.v20140903",
+                    "8.1.17.v20150415",
+                    "8.1.18.v20150929",
+                    "8.1.19.v20160209",
+                    "8.1.2.v20120308",
+                    "8.1.20.v20160902",
+                    "8.1.21.v20160908",
+                    "8.1.22.v20160922",
+                    "8.1.3.v20120416",
+                    "8.1.4.v20120524",
+                    "8.1.5.v20120716",
+                    "8.1.6.v20120903",
+                    "8.1.7.v20120910",
+                    "8.1.8.v20121106",
+                    "8.1.9.v20130131",
+                    "8.2.0.v20160908",
+                    "9.0.0.M0",
+                    "9.0.0.M1",
+                    "9.0.0.M2",
+                    "9.0.0.M3",
+                    "9.0.0.M4",
+                    "9.0.0.M5",
+                    "9.0.0.RC0",
+                    "9.0.0.RC1",
+                    "9.0.0.RC2",
+                    "9.0.0.v20130308",
+                    "9.0.1.v20130408",
+                    "9.0.2.v20130417",
+                    "9.0.3.v20130506",
+                    "9.0.4.v20130625",
+                    "9.0.5.v20130815",
+                    "9.0.6.v20130930",
+                    "9.0.7.v20131107",
+                    "9.1.0.M0",
+                    "9.1.0.RC0",
+                    "9.1.0.RC1",
+                    "9.1.0.RC2",
+                    "9.1.0.v20131115",
+                    "9.1.1.v20140108",
+                    "9.1.2.v20140210",
+                    "9.1.3.v20140225",
+                    "9.1.4.v20140401",
+                    "9.1.5.v20140505",
+                    "9.1.6.v20160112",
+                    "9.2.0.M0",
+                    "9.2.0.M1",
+                    "9.2.0.RC0",
+                    "9.2.0.v20140526",
+                    "9.2.1.v20140609",
+                    "9.2.10.v20150310",
+                    "9.2.11.M0",
+                    "9.2.11.v20150529",
+                    "9.2.12.M0",
+                    "9.2.12.v20150709",
+                    "9.2.13.v20150730",
+                    "9.2.14.v20151106",
+                    "9.2.15.v20160210",
+                    "9.2.16.v20160414",
+                    "9.2.17.v20160517",
+                    "9.2.18.v20160721",
+                    "9.2.19.v20160908",
+                    "9.2.2.v20140723",
+                    "9.2.20.v20161216",
+                    "9.2.21.v20170120",
+                    "9.2.22.v20170606",
+                    "9.2.23.v20171218",
+                    "9.2.24.v20180105",
+                    "9.2.25.v20180606",
+                    "9.2.26.v20180806",
+                    "9.2.27.v20190403",
+                    "9.2.28.v20190418",
+                    "9.2.29.v20191105",
+                    "9.2.3.v20140905",
+                    "9.2.30.v20200428",
+                    "9.2.4.v20141103",
+                    "9.2.5.v20141112",
+                    "9.2.6.v20141205",
+                    "9.2.7.v20150116",
+                    "9.2.8.v20150217",
+                    "9.2.9.v20150224",
+                    "9.3.0.M0",
+                    "9.3.0.M1",
+                    "9.3.0.M2",
+                    "9.3.0.RC0",
+                    "9.3.0.RC1",
+                    "9.3.0.v20150612",
+                    "9.3.1.v20150714",
+                    "9.3.10.M0",
+                    "9.3.10.v20160621",
+                    "9.3.11.M0",
+                    "9.3.11.v20160721",
+                    "9.3.12.v20160915",
+                    "9.3.13.M0",
+                    "9.3.13.v20161014",
+                    "9.3.14.v20161028",
+                    "9.3.15.v20161220",
+                    "9.3.16.v20170120",
+                    "9.3.17.RC0",
+                    "9.3.17.v20170317",
+                    "9.3.18.v20170406",
+                    "9.3.19.v20170502",
+                    "9.3.2.v20150730",
+                    "9.3.20.v20170531",
+                    "9.3.21.M0",
+                    "9.3.21.RC0",
+                    "9.3.21.v20170918",
+                    "9.3.22.v20171030",
+                    "9.3.23.v20180228",
+                    "9.3.24.v20180605",
+                    "9.3.25.v20180904",
+                    "9.3.26.v20190403",
+                    "9.3.27.v20190418",
+                    "9.3.28.v20191105",
+                    "9.3.29.v20201019",
+                    "9.3.3.v20150827",
+                    "9.3.30.v20211001",
+                    "9.3.4.RC0",
+                    "9.3.4.RC1",
+                    "9.3.4.v20151007",
+                    "9.3.5.v20151012",
+                    "9.3.6.v20151106",
+                    "9.3.7.RC0",
+                    "9.3.7.RC1",
+                    "9.3.7.v20160115",
+                    "9.3.8.RC0",
+                    "9.3.8.v20160314",
+                    "9.3.9.M0",
+                    "9.3.9.M1",
+                    "9.3.9.v20160517",
+                    "9.4.0.M0",
+                    "9.4.0.M1",
+                    "9.4.0.RC0",
+                    "9.4.0.RC1",
+                    "9.4.0.RC2",
+                    "9.4.0.RC3",
+                    "9.4.0.v20161208",
+                    "9.4.0.v20180619",
+                    "9.4.1.v20170120",
+                    "9.4.1.v20180619",
+                    "9.4.10.RC0",
+                    "9.4.10.RC1",
+                    "9.4.10.v20180503",
+                    "9.4.11.v20180605",
+                    "9.4.12.RC0",
+                    "9.4.12.RC1",
+                    "9.4.12.RC2",
+                    "9.4.12.v20180830",
+                    "9.4.13.v20181111",
+                    "9.4.14.v20181114",
+                    "9.4.15.v20190215",
+                    "9.4.16.v20190411",
+                    "9.4.17.v20190418",
+                    "9.4.18.v20190429",
+                    "9.4.19.v20190610",
+                    "9.4.2.v20170220",
+                    "9.4.2.v20180619",
+                    "9.4.20.v20190813",
+                    "9.4.21.v20190926",
+                    "9.4.22.v20191022",
+                    "9.4.23.v20191118",
+                    "9.4.24.v20191120",
+                    "9.4.25.v20191220",
+                    "9.4.26.v20200117",
+                    "9.4.27.v20200227",
+                    "9.4.28.v20200408",
+                    "9.4.29.v20200521",
+                    "9.4.3.v20170317",
+                    "9.4.3.v20180619",
+                    "9.4.30.v20200611",
+                    "9.4.31.v20200723",
+                    "9.4.32.v20200930",
+                    "9.4.33.v20201020",
+                    "9.4.34.v20201102",
+                    "9.4.35.v20201120",
+                    "9.4.36.v20210114",
+                    "9.4.37.v20210219",
+                    "9.4.38.v20210224",
+                    "9.4.39.v20210325",
+                    "9.4.4.v20170414",
+                    "9.4.4.v20180619",
+                    "9.4.40.v20210413",
+                    "9.4.5.v20170502",
+                    "9.4.5.v20180619",
+                    "9.4.6.v20170531",
+                    "9.4.6.v20180619",
+                    "9.4.7.RC0",
+                    "9.4.7.v20170914",
+                    "9.4.7.v20180619",
+                    "9.4.8.v20171121",
+                    "9.4.8.v20180619",
+                    "9.4.9.v20180320"
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 9.4.40",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-gwcr-j4wh-j3cq/GHSA-gwcr-j4wh-j3cq.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty:jetty-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "10.0.0"
+                        },
+                        {
+                          "fixed": "10.0.3"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "10.0.0",
+                    "10.0.1",
+                    "10.0.2"
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 10.0.2",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-gwcr-j4wh-j3cq/GHSA-gwcr-j4wh-j3cq.json"
+                  }
+                },
+                {
+                  "package": {
+                    "ecosystem": "Maven",
+                    "name": "org.eclipse.jetty:jetty-servlets",
+                    "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets"
+                  },
+                  "ranges": [
+                    {
+                      "type": "ECOSYSTEM",
+                      "events": [
+                        {
+                          "introduced": "11.0.0"
+                        },
+                        {
+                          "fixed": "11.0.3"
+                        }
+                      ]
+                    }
+                  ],
+                  "versions": [
+                    "11.0.0",
+                    "11.0.1",
+                    "11.0.2"
+                  ],
+                  "database_specific": {
+                    "last_known_affected_version_range": "\u003c= 11.0.2",
+                    "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-gwcr-j4wh-j3cq/GHSA-gwcr-j4wh-j3cq.json"
+                  }
+                }
+              ],
+              "severity": [
+                {
+                  "type": "CVSS_V3",
+                  "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+                }
+              ],
+              "references": [
+                {
+                  "type": "WEB",
+                  "url": "https://github.com/eclipse/jetty.project/security/advisories/GHSA-gwcr-j4wh-j3cq"
+                },
+                {
+                  "type": "ADVISORY",
+                  "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-28169"
+                },
+                {
+                  "type": "PACKAGE",
+                  "url": "https://github.com/eclipse/jetty.project"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r04a4b4553a23aff26f42635a6ae388c3b162aab30a88d12e59d05168@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r234f6452297065636356f43654cdacef565b8f9ceb0e0c07ffb8c73b@%3Cdev.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r2721aba31a8562639c4b937150897e24f78f747cdbda8641c0f659fe@%3Cusers.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r284de9c5399486dfff12ab9e7323ca720dd7019a9a3e11c8510a7140@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r29678972c3f8164b151fd7a5802785d402e530c09870a82ffc7681a4@%3Cdev.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r32b0b640ad2be3b858f0af51c68a7d5c5a66a462c8bbb93699825cd3@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r33eb06b05afbc7df28d31055cae0cb3fd36cab808c884bf6d680bea5@%3Cdev.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r67c4f90658fde875521c949448c54c98517beecdc7f618f902c620ec@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r8a1a332899a1f92c8118b0895b144b27a78e3f25b9d58a34dd5eb084@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/r91e34ff61aff8fd25a3f2a21539597c6ef7589a31c199b0a9546477c@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rb1292d30462b9baedea7c5d9594fc75990d9aa0ec223b48054ca9c25@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rbefa055282d52d6b58d29a79fbb0be65ab0a38d25f00bd29eaf5e6fd@%3Cnotifications.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rd5b52362f5edf98e0dcab6541a381f571cccc05ad9188e793af688f3@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rddbb4f8d5db23265bb63d14ef4b3723b438abc1589f877db11d35450@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/ref1c161a1621504e673f9197b49e6efe5a33ce3f0e6d8f1f804fc695@%3Cjira.kafka.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rf36f1114e84a3379b20587063686148e2d5a39abc0b8a66ff2a9087a@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.apache.org/thread.html/rfff6ff8ffb31e8a32619c79774def44b6ffbb037c128c5ad3eab7171@%3Cissues.zookeeper.apache.org%3E"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://lists.debian.org/debian-lts-announce/2021/06/msg00017.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://security.netapp.com/advisory/ntap-20210727-0009/"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.debian.org/security/2021/dsa-4949"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+                },
+                {
+                  "type": "WEB",
+                  "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+                }
+              ],
+              "database_specific": {
+                "cwe_ids": [
+                  "CWE-200"
+                ],
+                "github_reviewed": true,
+                "github_reviewed_at": "2021-06-09T20:02:50Z",
+                "nvd_published_at": "2021-06-09T02:15:00Z",
+                "severity": "MODERATE"
+              }
+            }
+          ],
+          "groups": [
+            {
+              "ids": [
+                "GHSA-3gh6-v5v9-6v9j"
+              ],
+              "aliases": [
+                "CVE-2023-36479",
+                "GHSA-3gh6-v5v9-6v9j"
+              ]
+            },
+            {
+              "ids": [
+                "GHSA-gwcr-j4wh-j3cq"
+              ],
+              "aliases": [
+                "CVE-2021-28169",
+                "GHSA-gwcr-j4wh-j3cq"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experimental_config": {
+    "licenses": {
+      "summary": false,
+      "allowlist": null
+    }
+  }
+}

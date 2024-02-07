@@ -1,0 +1,641 @@
+
+
+## Overview
+
+                    │           Analyzed Image             
+────────────────────┼──────────────────────────────────────
+  Target            │  docker-scanning-test-maven:latest   
+    digest          │  8e44ef3931a0                        
+    platform        │ linux/amd64                          
+    vulnerabilities │    8C     8H    31M    26L     2?    
+    size            │ 412 MB                               
+    packages        │ 441                                  
+
+
+## Packages and Vulnerabilities
+
+   1C     1H     1M     0L  org.codehaus.plexus/plexus-utils 1.5.15
+pkg:maven/org.codehaus.plexus/plexus-utils@1.5.15
+
+    ✗ CRITICAL CVE-2017-1000487 [Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')]
+      https://scout.docker.com/v/CVE-2017-1000487?s=github&n=plexus-utils&ns=org.codehaus.plexus&t=maven&vr=%3C3.0.16
+      Affected range : <3.0.16                                       
+      Fixed version  : 3.0.16                                        
+      CVSS Score     : 9.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+    ✗ HIGH CVE-2022-4244 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2022-4244?s=github&n=plexus-utils&ns=org.codehaus.plexus&t=maven&vr=%3C3.0.24
+      Affected range : <3.0.24                                       
+      Fixed version  : 3.0.24                                        
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2022-4245 [Improper Restriction of XML External Entity Reference]
+      https://scout.docker.com/v/CVE-2022-4245?s=github&n=plexus-utils&ns=org.codehaus.plexus&t=maven&vr=%3C3.0.24
+      Affected range : <3.0.24                                       
+      Fixed version  : 3.0.24                                        
+      CVSS Score     : 4.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N  
+    
+
+   1C     1H     1M     0L  org.codehaus.plexus/plexus-utils 2.0.4
+pkg:maven/org.codehaus.plexus/plexus-utils@2.0.4
+
+    ✗ CRITICAL CVE-2017-1000487 [Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')]
+      https://scout.docker.com/v/CVE-2017-1000487?s=github&n=plexus-utils&ns=org.codehaus.plexus&t=maven&vr=%3C3.0.16
+      Affected range : <3.0.16                                       
+      Fixed version  : 3.0.16                                        
+      CVSS Score     : 9.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+    ✗ HIGH CVE-2022-4244 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2022-4244?s=github&n=plexus-utils&ns=org.codehaus.plexus&t=maven&vr=%3C3.0.24
+      Affected range : <3.0.24                                       
+      Fixed version  : 3.0.24                                        
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2022-4245 [Improper Restriction of XML External Entity Reference]
+      https://scout.docker.com/v/CVE-2022-4245?s=github&n=plexus-utils&ns=org.codehaus.plexus&t=maven&vr=%3C3.0.24
+      Affected range : <3.0.24                                       
+      Fixed version  : 3.0.24                                        
+      CVSS Score     : 4.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N  
+    
+
+   1C     0H     0M     0L  org.apache.maven.shared/maven-shared-utils 3.0.1
+pkg:maven/org.apache.maven.shared/maven-shared-utils@3.0.1
+
+    ✗ CRITICAL CVE-2022-29599 [Improper Encoding or Escaping of Output]
+      https://scout.docker.com/v/CVE-2022-29599?s=github&n=maven-shared-utils&ns=org.apache.maven.shared&t=maven&vr=%3C3.3.3
+      Affected range : <3.3.3                                        
+      Fixed version  : 3.3.3                                         
+      CVSS Score     : 9.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+
+   1C     0H     0M     0L  org.apache.maven.shared/maven-shared-utils 3.0.0
+pkg:maven/org.apache.maven.shared/maven-shared-utils@3.0.0
+
+    ✗ CRITICAL CVE-2022-29599 [Improper Encoding or Escaping of Output]
+      https://scout.docker.com/v/CVE-2022-29599?s=github&n=maven-shared-utils&ns=org.apache.maven.shared&t=maven&vr=%3C3.3.3
+      Affected range : <3.3.3                                        
+      Fixed version  : 3.3.3                                         
+      CVSS Score     : 9.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+
+   1C     0H     0M     0L  org.apache.maven/maven-core 2.2.1
+pkg:maven/org.apache.maven/maven-core@2.2.1
+
+    ✗ CRITICAL CVE-2021-26291 [Origin Validation Error]
+      https://scout.docker.com/v/CVE-2021-26291?s=github&n=maven-core&ns=org.apache.maven&t=maven&vr=%3C3.8.1
+      Affected range : <3.8.1                                        
+      Fixed version  : 3.8.1                                         
+      CVSS Score     : 9.1                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+    
+
+   1C     0H     0M     0L  org.apache.maven.shared/maven-shared-utils 3.2.1
+pkg:maven/org.apache.maven.shared/maven-shared-utils@3.2.1
+
+    ✗ CRITICAL CVE-2022-29599 [Improper Encoding or Escaping of Output]
+      https://scout.docker.com/v/CVE-2022-29599?s=github&n=maven-shared-utils&ns=org.apache.maven.shared&t=maven&vr=%3C3.3.3
+      Affected range : <3.3.3                                        
+      Fixed version  : 3.3.3                                         
+      CVSS Score     : 9.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+
+   1C     0H     0M     0L  org.apache.maven/maven-core 3.0
+pkg:maven/org.apache.maven/maven-core@3.0
+
+    ✗ CRITICAL CVE-2021-26291 [Origin Validation Error]
+      https://scout.docker.com/v/CVE-2021-26291?s=github&n=maven-core&ns=org.apache.maven&t=maven&vr=%3C3.8.1
+      Affected range : <3.8.1                                        
+      Fixed version  : 3.8.1                                         
+      CVSS Score     : 9.1                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N  
+    
+
+   1C     0H     0M     0L  org.apache.maven.shared/maven-shared-utils 0.9
+pkg:maven/org.apache.maven.shared/maven-shared-utils@0.9
+
+    ✗ CRITICAL CVE-2022-29599 [Improper Encoding or Escaping of Output]
+      https://scout.docker.com/v/CVE-2022-29599?s=github&n=maven-shared-utils&ns=org.apache.maven.shared&t=maven&vr=%3C3.3.3
+      Affected range : <3.3.3                                        
+      Fixed version  : 3.3.3                                         
+      CVSS Score     : 9.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+
+   0C     4H     2M     0L  org.apache.commons/commons-compress 1.11
+pkg:maven/org.apache.commons/commons-compress@1.11
+
+    ✗ HIGH CVE-2021-36090 [Improper Handling of Length Parameter Inconsistency]
+      https://scout.docker.com/v/CVE-2021-36090?s=github&n=commons-compress&ns=org.apache.commons&t=maven&vr=%3C1.21
+      Affected range : <1.21                                         
+      Fixed version  : 1.21                                          
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+    
+    ✗ HIGH CVE-2021-35517 [Improper Handling of Length Parameter Inconsistency]
+      https://scout.docker.com/v/CVE-2021-35517?s=github&n=commons-compress&ns=org.apache.commons&t=maven&vr=%3C1.21
+      Affected range : <1.21                                         
+      Fixed version  : 1.21                                          
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+    
+    ✗ HIGH CVE-2021-35516 [Improper Handling of Length Parameter Inconsistency]
+      https://scout.docker.com/v/CVE-2021-35516?s=github&n=commons-compress&ns=org.apache.commons&t=maven&vr=%3C1.21
+      Affected range : <1.21                                         
+      Fixed version  : 1.21                                          
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+    
+    ✗ HIGH CVE-2021-35515 [Excessive Iteration]
+      https://scout.docker.com/v/CVE-2021-35515?s=github&n=commons-compress&ns=org.apache.commons&t=maven&vr=%3C1.21
+      Affected range : <1.21                                         
+      Fixed version  : 1.21                                          
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+    
+    ✗ MEDIUM CVE-2018-1324 [Loop with Unreachable Exit Condition ('Infinite Loop')]
+      https://scout.docker.com/v/CVE-2018-1324?s=github&n=commons-compress&ns=org.apache.commons&t=maven&vr=%3E%3D1.11%2C%3C1.16
+      Affected range : >=1.11                                        
+                     : <1.16                                         
+      Fixed version  : 1.16                                          
+      CVSS Score     : 5.5                                           
+      CVSS Vector    : CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H  
+    
+    ✗ MEDIUM CVE-2018-11771 [Loop with Unreachable Exit Condition ('Infinite Loop')]
+      https://scout.docker.com/v/CVE-2018-11771?s=github&n=commons-compress&ns=org.apache.commons&t=maven&vr=%3C1.18
+      Affected range : <1.18                                         
+      Fixed version  : 1.18                                          
+      CVSS Score     : 5.5                                           
+      CVSS Vector    : CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H  
+    
+
+   0C     1H     3M     1L  org.eclipse.jetty/jetty-http 9.4.40.v20210413
+pkg:maven/org.eclipse.jetty/jetty-http@9.4.40.v20210413
+
+    ✗ HIGH CVE-2023-36478 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-36478?s=gitlab&n=jetty-http&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.3.0%2C%3C%3D9.4.52
+      Affected range : >=9.3.0                                       
+                     : <=9.4.52                                      
+      Fixed version  : 10.0.16, 11.0.16, 9.4.53                      
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+    
+    ✗ MEDIUM CVE-2023-40167 [Improper Handling of Length Parameter Inconsistency]
+      https://scout.docker.com/v/CVE-2023-40167?s=github&n=jetty-http&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.0.0%2C%3C%3D9.4.51
+      Affected range : >=9.0.0                                       
+                     : <=9.4.51                                      
+      Fixed version  : 9.4.52                                        
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N  
+    
+    ✗ MEDIUM CVE-2023-26049 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26049?s=gitlab&n=jetty-http&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2023-26048 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26048?s=gitlab&n=jetty-http&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L  
+    
+    ✗ LOW CVE-2022-2047 [Improper Input Validation]
+      https://scout.docker.com/v/CVE-2022-2047?s=github&n=jetty-http&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.47
+      Affected range : <9.4.47                                       
+      Fixed version  : 9.4.47                                        
+      CVSS Score     : 2.7                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N  
+    
+
+   0C     1H     1M     0L  org.codehaus.plexus/plexus-archiver 3.4
+pkg:maven/org.codehaus.plexus/plexus-archiver@3.4
+
+    ✗ HIGH CVE-2023-37460 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2023-37460?s=github&n=plexus-archiver&ns=org.codehaus.plexus&t=maven&vr=%3C4.8.0
+      Affected range : <4.8.0                                        
+      Fixed version  : 4.8.0                                         
+      CVSS Score     : 8.1                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H  
+    
+    ✗ MEDIUM CVE-2018-1002200 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2018-1002200?s=github&n=plexus-archiver&ns=org.codehaus.plexus&t=maven&vr=%3C3.6.0
+      Affected range : <3.6.0                                        
+      Fixed version  : 3.6.0                                         
+      CVSS Score     : 5.5                                           
+      CVSS Vector    : CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N  
+    
+
+   0C     0H     5M     1L  org.eclipse.jetty/jetty-servlets 9.4.40.v20210413
+pkg:maven/org.eclipse.jetty/jetty-servlets@9.4.40.v20210413
+
+    ✗ MEDIUM CVE-2023-40167 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-40167?s=gitlab&n=jetty-servlets&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.0.0%2C%3C9.4.52
+      Affected range : >=9.0.0                                       
+                     : <9.4.52                                       
+      Fixed version  : 9.4.52.v20230823, 10.0.16, 11.0.16            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N  
+    
+    ✗ MEDIUM CVE-2023-26049 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26049?s=gitlab&n=jetty-servlets&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2023-26048 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26048?s=gitlab&n=jetty-servlets&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L  
+    
+    ✗ MEDIUM CVE-2021-28169 [Exposure of Sensitive Information to an Unauthorized Actor]
+      https://scout.docker.com/v/CVE-2021-28169?s=github&n=jetty-servlets&ns=org.eclipse.jetty&t=maven&vr=%3C%3D9.4.40
+      Affected range : <=9.4.40                                      
+      Fixed version  : 9.4.41                                        
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2023-41900 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-41900?s=gitlab&n=jetty-servlets&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.4.21%2C%3C9.4.52
+      Affected range : >=9.4.21                                      
+                     : <9.4.52                                       
+      Fixed version  : 9.4.52.v20230823, 10.0.16, 11.0.16            
+      CVSS Score     : 4.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ LOW CVE-2023-36479 [Improper Neutralization of Quoting Syntax]
+      https://scout.docker.com/v/CVE-2023-36479?s=github&n=jetty-servlets&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.0.0%2C%3C%3D9.4.51
+      Affected range : >=9.0.0                                       
+                     : <=9.4.51                                      
+      Fixed version  : 9.4.52                                        
+      CVSS Score     : 3.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N  
+    
+
+   0C     0H     5M     0L  org.eclipse.jetty/jetty-util 9.4.40.v20210413
+pkg:maven/org.eclipse.jetty/jetty-util@9.4.40.v20210413
+
+    ✗ MEDIUM CVE-2023-40167 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-40167?s=gitlab&n=jetty-util&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.0.0%2C%3C9.4.52
+      Affected range : >=9.0.0                                       
+                     : <9.4.52                                       
+      Fixed version  : 9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1    
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N  
+    
+    ✗ MEDIUM CVE-2023-26049 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26049?s=gitlab&n=jetty-util&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2023-26048 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26048?s=gitlab&n=jetty-util&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L  
+    
+    ✗ MEDIUM CVE-2023-41900 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-41900?s=gitlab&n=jetty-util&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.4.21%2C%3C9.4.52
+      Affected range : >=9.4.21                                      
+                     : <9.4.52                                       
+      Fixed version  : 9.4.52.v20230823, 10.0.16, 11.0.16            
+      CVSS Score     : 4.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2023-36479 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-36479?s=gitlab&n=jetty-util&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.0.0%2C%3C9.4.52
+      Affected range : >=9.0.0                                       
+                     : <9.4.52                                       
+      Fixed version  : 9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1    
+      CVSS Score     : 4.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N  
+    
+
+   0C     0H     5M     0L  avahi 0.8-13
+pkg:deb/debian/avahi@0.8-13?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ MEDIUM CVE-2023-38473
+      https://scout.docker.com/v/CVE-2023-38473?s=debian&n=avahi&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D0.8-13
+      Affected range : >=0.8-13   
+      Fixed version  : not fixed  
+    
+    ✗ MEDIUM CVE-2023-38472
+      https://scout.docker.com/v/CVE-2023-38472?s=debian&n=avahi&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D0.8-13
+      Affected range : >=0.8-13   
+      Fixed version  : not fixed  
+    
+    ✗ MEDIUM CVE-2023-38471
+      https://scout.docker.com/v/CVE-2023-38471?s=debian&n=avahi&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D0.8-13
+      Affected range : >=0.8-13   
+      Fixed version  : not fixed  
+    
+    ✗ MEDIUM CVE-2023-38470
+      https://scout.docker.com/v/CVE-2023-38470?s=debian&n=avahi&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D0.8-13
+      Affected range : >=0.8-13   
+      Fixed version  : not fixed  
+    
+    ✗ MEDIUM CVE-2023-38469
+      https://scout.docker.com/v/CVE-2023-38469?s=debian&n=avahi&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D0.8-13
+      Affected range : >=0.8-13   
+      Fixed version  : not fixed  
+    
+
+   0C     0H     3M     0L  org.eclipse.jetty/jetty-io 9.4.40.v20210413
+pkg:maven/org.eclipse.jetty/jetty-io@9.4.40.v20210413
+
+    ✗ MEDIUM CVE-2023-26049 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26049?s=gitlab&n=jetty-io&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N  
+    
+    ✗ MEDIUM CVE-2023-26048 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-26048?s=gitlab&n=jetty-io&ns=org.eclipse.jetty&t=maven&vr=%3C9.4.51
+      Affected range : <9.4.51                                       
+      Fixed version  : 9.4.51.v20230217, 10.0.14, 11.0.14            
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L  
+    
+    ✗ MEDIUM CVE-2023-41900 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2023-41900?s=gitlab&n=jetty-io&ns=org.eclipse.jetty&t=maven&vr=%3E%3D9.4.21%2C%3C9.4.52
+      Affected range : >=9.4.21                                      
+                     : <9.4.52                                       
+      Fixed version  : 9.4.52.v20230823, 10.0.16, 11.0.16            
+      CVSS Score     : 4.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N  
+    
+
+   0C     0H     1M     2L  openssl 3.1.4-2
+pkg:deb/debian/openssl@3.1.4-2?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ MEDIUM CVE-2024-0727
+      https://scout.docker.com/v/CVE-2024-0727?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C3.1.5-1
+      Affected range : <3.1.5-1  
+      Fixed version  : 3.1.5-1   
+    
+    ✗ LOW CVE-2023-6237
+      https://scout.docker.com/v/CVE-2023-6237?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C3.1.5-1
+      Affected range : <3.1.5-1  
+      Fixed version  : 3.1.5-1   
+    
+    ✗ LOW CVE-2023-6129
+      https://scout.docker.com/v/CVE-2023-6129?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C3.1.5-1
+      Affected range : <3.1.5-1  
+      Fixed version  : 3.1.5-1   
+    
+
+   0C     0H     1M     0L  junit/junit 4.12
+pkg:maven/junit/junit@4.12
+
+    ✗ MEDIUM CVE-2020-15250 [Exposure of Sensitive Information to an Unauthorized Actor]
+      https://scout.docker.com/v/CVE-2020-15250?s=github&n=junit&ns=junit&t=maven&vr=%3E%3D4.7%2C%3C4.13.1
+      Affected range : >=4.7                                         
+                     : <4.13.1                                       
+      Fixed version  : 4.13.1                                        
+      CVSS Score     : 4.4                                           
+      CVSS Vector    : CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N  
+    
+
+   0C     0H     1M     0L  commons-io/commons-io 2.5
+pkg:maven/commons-io/commons-io@2.5
+
+    ✗ MEDIUM CVE-2021-29425 [Improper Input Validation]
+      https://scout.docker.com/v/CVE-2021-29425?s=github&n=commons-io&ns=commons-io&t=maven&vr=%3C2.7
+      Affected range : <2.7                                          
+      Fixed version  : 2.7                                           
+      CVSS Score     : 4.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N  
+    
+
+   0C     0H     1M     0L  commons-io/commons-io 2.2
+pkg:maven/commons-io/commons-io@2.2
+
+    ✗ MEDIUM CVE-2021-29425 [Improper Input Validation]
+      https://scout.docker.com/v/CVE-2021-29425?s=github&n=commons-io&ns=commons-io&t=maven&vr=%3C2.7
+      Affected range : <2.7                                          
+      Fixed version  : 2.7                                           
+      CVSS Score     : 4.8                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N  
+    
+
+   0C     0H     1M     0L  junit/junit 4.11
+pkg:maven/junit/junit@4.11
+
+    ✗ MEDIUM CVE-2020-15250 [Exposure of Sensitive Information to an Unauthorized Actor]
+      https://scout.docker.com/v/CVE-2020-15250?s=github&n=junit&ns=junit&t=maven&vr=%3E%3D4.7%2C%3C4.13.1
+      Affected range : >=4.7                                         
+                     : <4.13.1                                       
+      Fixed version  : 4.13.1                                        
+      CVSS Score     : 4.4                                           
+      CVSS Vector    : CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N  
+    
+
+   0C     0H     0M     4L     1?  nss 2:3.96.1-1
+pkg:deb/debian/nss@2:3.96.1-1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2017-11698
+      https://scout.docker.com/v/CVE-2017-11698?s=debian&n=nss&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2%3A3.96.1-1
+      Affected range : >=2:3.96.1-1  
+      Fixed version  : not fixed     
+    
+    ✗ LOW CVE-2017-11697
+      https://scout.docker.com/v/CVE-2017-11697?s=debian&n=nss&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2%3A3.96.1-1
+      Affected range : >=2:3.96.1-1  
+      Fixed version  : not fixed     
+    
+    ✗ LOW CVE-2017-11696
+      https://scout.docker.com/v/CVE-2017-11696?s=debian&n=nss&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2%3A3.96.1-1
+      Affected range : >=2:3.96.1-1  
+      Fixed version  : not fixed     
+    
+    ✗ LOW CVE-2017-11695
+      https://scout.docker.com/v/CVE-2017-11695?s=debian&n=nss&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2%3A3.96.1-1
+      Affected range : >=2:3.96.1-1  
+      Fixed version  : not fixed     
+    
+    ✗ UNSPECIFIED CVE-2023-5388
+      https://scout.docker.com/v/CVE-2023-5388?s=debian&n=nss&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2%3A3.96.1-1
+      Affected range : >=2:3.96.1-1  
+      Fixed version  : not fixed     
+    
+
+   0C     0H     0M     3L  coreutils 9.4-3+b1
+pkg:deb/debian/coreutils@9.4-3+b1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2024-0684
+      https://scout.docker.com/v/CVE-2024-0684?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D9.4-3
+      Affected range : >=9.4-3    
+      Fixed version  : not fixed  
+    
+    ✗ LOW CVE-2017-18018
+      https://scout.docker.com/v/CVE-2017-18018?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D9.4-3
+      Affected range : >=9.4-3    
+      Fixed version  : not fixed  
+    
+    ✗ LOW CVE-2016-2781
+      https://scout.docker.com/v/CVE-2016-2781?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D9.4-3
+      Affected range : >=9.4-3    
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     3L  glibc 2.37-15~deb13u1
+pkg:deb/debian/glibc@2.37-15~deb13u1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2023-6780
+      https://scout.docker.com/v/CVE-2023-6780?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C2.37-15
+      Affected range : <2.37-15  
+      Fixed version  : 2.37-15   
+    
+    ✗ LOW CVE-2023-6779
+      https://scout.docker.com/v/CVE-2023-6779?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C2.37-15
+      Affected range : <2.37-15  
+      Fixed version  : 2.37-15   
+    
+    ✗ LOW CVE-2023-6246
+      https://scout.docker.com/v/CVE-2023-6246?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C2.37-15
+      Affected range : <2.37-15  
+      Fixed version  : 2.37-15   
+    
+
+   0C     0H     0M     2L  shadow 1:4.13+dfsg1-3
+pkg:deb/debian/shadow@1:4.13+dfsg1-3?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2019-19882
+      https://scout.docker.com/v/CVE-2019-19882?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1%3A4.13%2Bdfsg1-3
+      Affected range : >=1:4.13+dfsg1-3  
+      Fixed version  : not fixed         
+    
+    ✗ LOW CVE-2007-5686
+      https://scout.docker.com/v/CVE-2007-5686?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1%3A4.13%2Bdfsg1-3
+      Affected range : >=1:4.13+dfsg1-3  
+      Fixed version  : not fixed         
+    
+
+   0C     0H     0M     1L  xdg-user-dirs 0.18-1
+pkg:deb/debian/xdg-user-dirs@0.18-1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2017-15131
+      https://scout.docker.com/v/CVE-2017-15131?s=debian&n=xdg-user-dirs&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D0.18-1
+      Affected range : >=0.18-1   
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  util-linux 2.39.3-6
+pkg:deb/debian/util-linux@2.39.3-6?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2022-0563
+      https://scout.docker.com/v/CVE-2022-0563?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.39.3-6
+      Affected range : >=2.39.3-6  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  perl 5.38.2-3
+pkg:deb/debian/perl@5.38.2-3?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2011-4116
+      https://scout.docker.com/v/CVE-2011-4116?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D5.38.2-3
+      Affected range : >=5.38.2-3  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  libgcrypt20 1.10.3-2
+pkg:deb/debian/libgcrypt20@1.10.3-2?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2018-6829
+      https://scout.docker.com/v/CVE-2018-6829?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.10.3-2
+      Affected range : >=1.10.3-2  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  gnupg2 2.2.40-1.1
+pkg:deb/debian/gnupg2@2.2.40-1.1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2022-3219
+      https://scout.docker.com/v/CVE-2022-3219?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.2.40-1.1
+      Affected range : >=2.2.40-1.1  
+      Fixed version  : not fixed     
+    
+
+   0C     0H     0M     1L  krb5 1.20.1-5
+pkg:deb/debian/krb5@1.20.1-5?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2018-5709
+      https://scout.docker.com/v/CVE-2018-5709?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.20.1-5
+      Affected range : >=1.20.1-5  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  gnutls28 3.8.3-1
+pkg:deb/debian/gnutls28@3.8.3-1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2011-3389
+      https://scout.docker.com/v/CVE-2011-3389?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D3.8.3-1
+      Affected range : >=3.8.3-1  
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  cups 2.4.7-1
+pkg:deb/debian/cups@2.4.7-1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2014-8166
+      https://scout.docker.com/v/CVE-2014-8166?s=debian&n=cups&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.4.7-1
+      Affected range : >=2.4.7-1  
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  apt 2.7.10
+pkg:deb/debian/apt@2.7.10?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2011-3374
+      https://scout.docker.com/v/CVE-2011-3374?s=debian&n=apt&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.7.10
+      Affected range : >=2.7.10   
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  tar 1.35+dfsg-3
+pkg:deb/debian/tar@1.35+dfsg-3?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2005-2541
+      https://scout.docker.com/v/CVE-2005-2541?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.35%2Bdfsg-3
+      Affected range : >=1.35+dfsg-3  
+      Fixed version  : not fixed      
+    
+
+   0C     0H     0M     0L     1?  pam 1.5.2-9.1
+pkg:deb/debian/pam@1.5.2-9.1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ UNSPECIFIED CVE-2024-22365
+      https://scout.docker.com/v/CVE-2024-22365?s=debian&n=pam&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.5.2-9.1
+      Affected range : >=1.5.2-9.1  
+      Fixed version  : not fixed    
+    
+
+
+75 vulnerabilities found in 35 packages
+  UNSPECIFIED  2   
+  LOW          26  
+  MEDIUM       31  
+  HIGH         8   
+  CRITICAL     8   
+
+
+What's Next?
+  View base image update recommendations → docker scout recommendations docker-scanning-test-maven:latest
+

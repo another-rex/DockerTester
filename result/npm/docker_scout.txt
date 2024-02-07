@@ -1,0 +1,263 @@
+
+
+## Overview
+
+                    │           Analyzed Image            
+────────────────────┼─────────────────────────────────────
+  Target            │  docker-scanning-test-npm:latest    
+    digest          │  424835b32f84                       
+    platform        │ linux/amd64                         
+    vulnerabilities │    1C     3H     3M    19L     3?   
+    size            │ 351 MB                              
+    packages        │ 2139                                
+
+
+## Packages and Vulnerabilities
+
+   1C     0H     0M     0L  @babel/traverse 7.20.13
+pkg:npm/%40babel/traverse@7.20.13
+
+    ✗ CRITICAL CVE-2023-45133 [Incomplete List of Disallowed Inputs]
+      https://scout.docker.com/v/CVE-2023-45133?s=github&n=traverse&ns=%40babel&t=npm&vr=%3C7.23.2
+      Affected range : <7.23.2                                       
+      Fixed version  : 7.23.2                                        
+      CVSS Score     : 9.3                                           
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H  
+    
+
+   0C     1H     0M     0L  http-cache-semantics 4.1.0
+pkg:npm/http-cache-semantics@4.1.0
+
+    ✗ HIGH CVE-2022-25881 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2022-25881?s=github&n=http-cache-semantics&t=npm&vr=%3C4.1.1
+      Affected range : <4.1.1                                        
+      Fixed version  : 4.1.1                                         
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H  
+    
+
+   0C     1H     0M     0L  static-server 2.2.0
+pkg:npm/static-server@2.2.0
+
+    ✗ HIGH CVE-2023-26152 [Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')]
+      https://scout.docker.com/v/CVE-2023-26152?s=github&n=static-server&t=npm&vr=%3C%3D2.2.1
+      Affected range : <=2.2.1                                       
+      Fixed version  : not fixed                                     
+      CVSS Score     : 7.5                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
+    
+
+   0C     1H     0M     0L  async 0.8.0
+pkg:npm/async@0.8.0
+
+    ✗ HIGH CVE-2021-43138 [OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities]
+      https://scout.docker.com/v/CVE-2021-43138?s=gitlab&n=async&t=npm&vr=%3C2.6.4
+      Affected range : <2.6.4                                        
+      Fixed version  : 2.6.4, 3.2.2                                
+      CVSS Score     : 7.8                                           
+      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H  
+    
+
+   0C     0H     1M     2L  openssl 3.1.4-2
+pkg:deb/debian/openssl@3.1.4-2?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ MEDIUM CVE-2024-0727
+      https://scout.docker.com/v/CVE-2024-0727?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C3.1.5-1
+      Affected range : <3.1.5-1  
+      Fixed version  : 3.1.5-1   
+    
+    ✗ LOW CVE-2023-6237
+      https://scout.docker.com/v/CVE-2023-6237?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C3.1.5-1
+      Affected range : <3.1.5-1  
+      Fixed version  : 3.1.5-1   
+    
+    ✗ LOW CVE-2023-6129
+      https://scout.docker.com/v/CVE-2023-6129?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C3.1.5-1
+      Affected range : <3.1.5-1  
+      Fixed version  : 3.1.5-1   
+    
+
+   0C     0H     1M     1L  python3.11 3.11.7-2
+pkg:deb/debian/python3.11@3.11.7-2?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ MEDIUM CVE-2023-27043
+      https://scout.docker.com/v/CVE-2023-27043?s=debian&n=python3.11&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D3.11.7-2
+      Affected range : >=3.11.7-2  
+      Fixed version  : not fixed   
+    
+    ✗ LOW CVE-2023-24535
+      https://scout.docker.com/v/CVE-2023-24535?s=debian&n=python3.11&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D3.11.7-2
+      Affected range : >=3.11.7-2  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     1M     0L  word-wrap 1.2.3
+pkg:npm/word-wrap@1.2.3
+
+    ✗ MEDIUM CVE-2023-26115 [Inefficient Regular Expression Complexity]
+      https://scout.docker.com/v/CVE-2023-26115?s=github&n=word-wrap&t=npm&vr=%3C1.2.4
+      Affected range : <1.2.4                                        
+      Fixed version  : 1.2.4                                         
+      CVSS Score     : 5.3                                           
+      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L  
+    
+
+   0C     0H     0M     3L  glibc 2.37-14
+pkg:deb/debian/glibc@2.37-14?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2023-6780
+      https://scout.docker.com/v/CVE-2023-6780?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C2.37-15
+      Affected range : <2.37-15  
+      Fixed version  : 2.37-15   
+    
+    ✗ LOW CVE-2023-6779
+      https://scout.docker.com/v/CVE-2023-6779?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C2.37-15
+      Affected range : <2.37-15  
+      Fixed version  : 2.37-15   
+    
+    ✗ LOW CVE-2023-6246
+      https://scout.docker.com/v/CVE-2023-6246?s=debian&n=glibc&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3C2.37-15
+      Affected range : <2.37-15  
+      Fixed version  : 2.37-15   
+    
+
+   0C     0H     0M     3L  coreutils 9.4-3+b1
+pkg:deb/debian/coreutils@9.4-3+b1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2024-0684
+      https://scout.docker.com/v/CVE-2024-0684?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D9.4-3
+      Affected range : >=9.4-3    
+      Fixed version  : not fixed  
+    
+    ✗ LOW CVE-2017-18018
+      https://scout.docker.com/v/CVE-2017-18018?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D9.4-3
+      Affected range : >=9.4-3    
+      Fixed version  : not fixed  
+    
+    ✗ LOW CVE-2016-2781
+      https://scout.docker.com/v/CVE-2016-2781?s=debian&n=coreutils&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D9.4-3
+      Affected range : >=9.4-3    
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     2L  shadow 1:4.13+dfsg1-3
+pkg:deb/debian/shadow@1:4.13+dfsg1-3?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2019-19882
+      https://scout.docker.com/v/CVE-2019-19882?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1%3A4.13%2Bdfsg1-3
+      Affected range : >=1:4.13+dfsg1-3  
+      Fixed version  : not fixed         
+    
+    ✗ LOW CVE-2007-5686
+      https://scout.docker.com/v/CVE-2007-5686?s=debian&n=shadow&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1%3A4.13%2Bdfsg1-3
+      Affected range : >=1:4.13+dfsg1-3  
+      Fixed version  : not fixed         
+    
+
+   0C     0H     0M     1L  krb5 1.20.1-5
+pkg:deb/debian/krb5@1.20.1-5?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2018-5709
+      https://scout.docker.com/v/CVE-2018-5709?s=debian&n=krb5&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.20.1-5
+      Affected range : >=1.20.1-5  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  gnutls28 3.8.3-1
+pkg:deb/debian/gnutls28@3.8.3-1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2011-3389
+      https://scout.docker.com/v/CVE-2011-3389?s=debian&n=gnutls28&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D3.8.3-1
+      Affected range : >=3.8.3-1  
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  util-linux 2.39.3-6
+pkg:deb/debian/util-linux@2.39.3-6?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2022-0563
+      https://scout.docker.com/v/CVE-2022-0563?s=debian&n=util-linux&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.39.3-6
+      Affected range : >=2.39.3-6  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  libgcrypt20 1.10.3-2
+pkg:deb/debian/libgcrypt20@1.10.3-2?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2018-6829
+      https://scout.docker.com/v/CVE-2018-6829?s=debian&n=libgcrypt20&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.10.3-2
+      Affected range : >=1.10.3-2  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  gnupg2 2.2.40-1.1
+pkg:deb/debian/gnupg2@2.2.40-1.1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2022-3219
+      https://scout.docker.com/v/CVE-2022-3219?s=debian&n=gnupg2&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.2.40-1.1
+      Affected range : >=2.2.40-1.1  
+      Fixed version  : not fixed     
+    
+
+   0C     0H     0M     1L  perl 5.38.2-3
+pkg:deb/debian/perl@5.38.2-3?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2011-4116
+      https://scout.docker.com/v/CVE-2011-4116?s=debian&n=perl&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D5.38.2-3
+      Affected range : >=5.38.2-3  
+      Fixed version  : not fixed   
+    
+
+   0C     0H     0M     1L  apt 2.7.10
+pkg:deb/debian/apt@2.7.10?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2011-3374
+      https://scout.docker.com/v/CVE-2011-3374?s=debian&n=apt&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.7.10
+      Affected range : >=2.7.10   
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     1L  tar 1.35+dfsg-3
+pkg:deb/debian/tar@1.35+dfsg-3?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ LOW CVE-2005-2541
+      https://scout.docker.com/v/CVE-2005-2541?s=debian&n=tar&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.35%2Bdfsg-3
+      Affected range : >=1.35+dfsg-3  
+      Fixed version  : not fixed      
+    
+
+   0C     0H     0M     0L     2?  expat 2.5.0-2
+pkg:deb/debian/expat@2.5.0-2?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ UNSPECIFIED CVE-2023-52426
+      https://scout.docker.com/v/CVE-2023-52426?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.5.0-2
+      Affected range : >=2.5.0-2  
+      Fixed version  : not fixed  
+    
+    ✗ UNSPECIFIED CVE-2023-52425
+      https://scout.docker.com/v/CVE-2023-52425?s=debian&n=expat&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D2.5.0-2
+      Affected range : >=2.5.0-2  
+      Fixed version  : not fixed  
+    
+
+   0C     0H     0M     0L     1?  pam 1.5.2-9.1
+pkg:deb/debian/pam@1.5.2-9.1?os_distro=trixie&os_name=debian&os_version=unstable
+
+    ✗ UNSPECIFIED CVE-2024-22365
+      https://scout.docker.com/v/CVE-2024-22365?s=debian&n=pam&ns=debian&t=deb&osn=debian&osv=unstable&vr=%3E%3D1.5.2-9.1
+      Affected range : >=1.5.2-9.1  
+      Fixed version  : not fixed    
+    
+
+
+29 vulnerabilities found in 20 packages
+  UNSPECIFIED  3   
+  LOW          19  
+  MEDIUM       3   
+  HIGH         3   
+  CRITICAL     1   
+
+
+What's Next?
+  View base image update recommendations → docker scout recommendations docker-scanning-test-npm:latest
+

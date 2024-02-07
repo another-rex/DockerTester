@@ -1,0 +1,79 @@
+
+  Target   │  docker-scanning-test-go:latest   
+    digest │  49ddc6ef61a1                     
+
+## Recommended fixes
+
+  Base image is  debian:testing-20240130-slim 
+
+  Name            │  testing-20240130-slim                                                     
+  Digest          │  sha256:6025318e71272635b65bc44dd9615713610dcf7bf864bdacea4f1fbd96ff367d   
+  Vulnerabilities │    0C     0H     1M    17L     1?                                          
+  Pushed          │ 3 days ago                                                                 
+  Size            │ 32 MB                                                                      
+  Packages        │ 126                                                                        
+  Flavor          │ debian                                                                     
+  OS              │ 12                                                                         
+  Slim            │ ✓                                                                          
+
+                                                                                                                                                                               
+  │ The base image is also available under the supported tag(s) `testing-slim`. If you want to display recommendations specifically for a different tag, please re-run the     
+  command                                                                                                                                                                      
+  │ using the `--tag` flag.                                                                                                                                                     
+
+
+
+Refresh base image
+  Rebuild the image using a newer base image version. Updating this may result in breaking changes.
+
+  ✓ This image version is up to date.
+
+
+Change base image
+  The list displays new recommended tags in descending order, where the top results are rated as most suitable.
+
+
+                   Tag                   │                  Details                  │   Pushed   │          Vulnerabilities            
+─────────────────────────────────────────┼───────────────────────────────────────────┼────────────┼─────────────────────────────────────
+   stable-20240130-slim                  │ Benefits:                                 │ 3 days ago │    0C     0H     0M    19L          
+  Tag is preferred tag                   │ • Same OS detected                        │            │                  -1     +2     -1   
+  Also known as:                         │ • Image is smaller by 2.4 MB              │            │                                     
+  • stable-slim                          │ • Tag is preferred tag                    │            │                                     
+                                         │ • Image contains equal number of packages │            │                                     
+                                         │ • Tag is using slim variant               │            │                                     
+                                         │                                           │            │                                     
+                                         │ Image details:                            │            │                                     
+                                         │ • Size: 29 MB                             │            │                                     
+                                         │ • Flavor: debian                          │            │                                     
+                                         │ • OS: 11                                  │            │                                     
+                                         │ • Slim: ✓                                 │            │                                     
+                                         │                                           │            │                                     
+                                         │                                           │            │                                     
+                                         │                                           │            │                                     
+   bookworm-20240130-slim                │ Benefits:                                 │ 3 days ago │    0C     0H     0M    19L          
+  Image introduces 2 low vulnerabilities │ • Same OS detected                        │            │                  -1     +2     -1   
+  Also known as:                         │ • Image is smaller by 2.4 MB              │            │                                     
+  • 12.4-slim                            │ • Image contains equal number of packages │            │                                     
+  • 12-slim                              │ • Tag is using slim variant               │            │                                     
+  • bookworm-slim                        │                                           │            │                                     
+                                         │ Image details:                            │            │                                     
+                                         │ • Size: 29 MB                             │            │                                     
+                                         │ • Flavor: debian                          │            │                                     
+                                         │ • OS: 12                                  │            │                                     
+                                         │ • Slim: ✓                                 │            │                                     
+                                         │                                           │            │                                     
+                                         │                                           │            │                                     
+                                         │                                           │            │                                     
+   bookworm-20240130                     │ Benefits:                                 │ 3 days ago │    0C     0H     0M    19L          
+  Tag is latest                          │ • Same OS detected                        │            │                  -1     +2     -1   
+  Also known as:                         │ • Tag is latest                           │            │                                     
+  • 12.4                                 │ • Image contains equal number of packages │            │                                     
+  • 12                                   │                                           │            │                                     
+  • bookworm                             │ Image details:                            │            │                                     
+  • latest                               │ • Size: 50 MB                             │            │                                     
+                                         │ • Flavor: debian                          │            │                                     
+                                         │ • OS: 12                                  │            │                                     
+                                         │                                           │            │                                     
+                                         │                                           │            │                                     
+                                         │                                           │            │                                     
+
