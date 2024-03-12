@@ -1,0 +1,2 @@
+Scanning image ./docker/debian/debian-tester.tar
+No issues found

@@ -1,0 +1,2054 @@
+
+Testing debian-tester...
+
+✗ Low severity vulnerability found in wheel/python3-wheel
+  Description: CVE-2022-40898
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-WHEEL-3323807
+  Introduced through: python-pip/python3-pip@20.3.4-4+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > wheel/python3-wheel@0.34.2-1
+
+✗ Low severity vulnerability found in util-linux/libblkid1
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-UTILLINUX-2401081
+  Introduced through: util-linux/libblkid1@2.36.1-8+deb11u1, e2fsprogs@1.46.2-2, util-linux/libmount1@2.36.1-8+deb11u1, util-linux/mount@2.36.1-8+deb11u1, glibc/libc-devtools@2.31-13+deb11u8, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1, util-linux@2.36.1-8+deb11u1, util-linux/bsdutils@1:2.36.1-8+deb11u1, util-linux/libsmartcols1@2.36.1-8+deb11u1
+  From: util-linux/libblkid1@2.36.1-8+deb11u1
+  From: e2fsprogs@1.46.2-2 > util-linux/libblkid1@2.36.1-8+deb11u1
+  From: util-linux/libmount1@2.36.1-8+deb11u1 > util-linux/libblkid1@2.36.1-8+deb11u1
+  and 17 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-2434417
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Improper Resource Shutdown or Release
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-2440571
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-514595
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-516778
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Missing Release of Resource after Effective Lifetime
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-518574
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-520936
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-531474
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5416363
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5425904
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5673712
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5724641
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5747597
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5749339
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5750143
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5767900
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5773188
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-5853001
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-6079927
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-6084515
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-6190609
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tiff/libtiff5
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TIFF-6190787
+  Introduced through: tiff/libtiff5@4.2.0-1+deb11u5, glibc/libc-devtools@2.31-13+deb11u8
+  From: tiff/libtiff5@4.2.0-1+deb11u5
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5
+
+✗ Low severity vulnerability found in tar
+  Description: CVE-2005-2541
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-TAR-523480
+  Introduced through: tar@1.34+dfsg-1+deb11u1
+  From: tar@1.34+dfsg-1+deb11u1
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Authentication Bypass
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-1291054
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-524969
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-5733387
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-5733391
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-5733392
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2023-7008
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-6137713
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2023-50868
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-6277512
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in squid/squid-common
+  Description: Improper Privilege Management
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQUID-597212
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > squid/squid-common@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in squid/squid-common
+  Description: CVE-2024-25111
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQUID-6390312
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > squid/squid-common@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in sqlparse/python3-sqlparse
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLPARSE-1656749
+  Introduced through: python-django/python3-django@2:2.2.28-1~deb11u2
+  From: python-django/python3-django@2:2.2.28-1~deb11u2 > sqlparse/python3-sqlparse@0.4.1-1
+
+✗ Low severity vulnerability found in sqlparse/python3-sqlparse
+  Description: Inefficient Regular Expression Complexity
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLPARSE-5430939
+  Introduced through: python-django/python3-django@2:2.2.28-1~deb11u2
+  From: python-django/python3-django@2:2.2.28-1~deb11u2 > sqlparse/python3-sqlparse@0.4.1-1
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-1569419
+  Introduced through: gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-2407045
+  Introduced through: gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Improper Validation of Array Index
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-2959400
+  Introduced through: gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-5562381
+  Introduced through: gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in sqlite3/libsqlite3-0
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQLITE3-6139925
+  Introduced through: gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpg@2.2.27-2+deb11u2 > sqlite3/libsqlite3-0@3.34.1-3
+  From: python3-defaults/python3@3.9.2-3 > python3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1 > sqlite3/libsqlite3-0@3.34.1-3
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > apr-util/libaprutil1-dbd-sqlite3@1.6.1-5+deb11u1 > sqlite3/libsqlite3-0@3.34.1-3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Access Restriction Bypass
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SHADOW-526940
+  Introduced through: shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1, squid@4.13-10+deb11u3
+  From: shadow/login@1:4.8.1-1
+  From: util-linux/mount@2.36.1-8+deb11u1 > util-linux@2.36.1-8+deb11u1 > shadow/login@1:4.8.1-1
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SHADOW-528840
+  Introduced through: shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1, squid@4.13-10+deb11u3
+  From: shadow/login@1:4.8.1-1
+  From: util-linux/mount@2.36.1-8+deb11u1 > util-linux@2.36.1-8+deb11u1 > shadow/login@1:4.8.1-1
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Incorrect Permission Assignment for Critical Resource
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SHADOW-539870
+  Introduced through: shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1, squid@4.13-10+deb11u3
+  From: shadow/login@1:4.8.1-1
+  From: util-linux/mount@2.36.1-8+deb11u1 > util-linux@2.36.1-8+deb11u1 > shadow/login@1:4.8.1-1
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SHADOW-5423922
+  Introduced through: shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1, squid@4.13-10+deb11u3
+  From: shadow/login@1:4.8.1-1
+  From: util-linux/mount@2.36.1-8+deb11u1 > util-linux@2.36.1-8+deb11u1 > shadow/login@1:4.8.1-1
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in shadow/login
+  Description: Improper Authentication
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SHADOW-5879152
+  Introduced through: shadow/login@1:4.8.1-1, util-linux/mount@2.36.1-8+deb11u1, squid@4.13-10+deb11u3
+  From: shadow/login@1:4.8.1-1
+  From: util-linux/mount@2.36.1-8+deb11u1 > util-linux@2.36.1-8+deb11u1 > shadow/login@1:4.8.1-1
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in setuptools/python3-pkg-resources
+  Description: Inefficient Regular Expression Complexity
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SETUPTOOLS-3227051
+  Introduced through: python-pip/python3-pip@20.3.4-4+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > setuptools/python3-setuptools@52.0.0-4 > setuptools/python3-pkg-resources@52.0.0-4
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > setuptools/python3-setuptools@52.0.0-4
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: CVE-2020-27619
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1021152
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1085113
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1290158
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1570176
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-1579738
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Unchecked Return Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-2329042
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-2388383
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Arbitrary Command Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-2764968
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Incorrect Type Conversion or Cast
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3017608
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Open Redirect
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3032984
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3090932
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: CVE-2022-42919
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3092471
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Algorithmic Complexity
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3111117
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-3325303
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-5430933
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-5754616
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python3.9/libpython3.9-stdlib
+  Description: CVE-2023-40217
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHON39-5861805
+  Introduced through: mailutils/libmailutils7@1:3.10-3+b1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3@3.9.2-3, python3.9/libpython3.9@3.9.2-1, python3-defaults/python3-dev@3.9.2-3, python3.9/libpython3.9-dev@3.9.2-1, python3.9/python3.9-dev@3.9.2-1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/libpython3-dev@3.9.2-3 > python3.9/libpython3.9-dev@3.9.2-1 > python3.9/libpython3.9-stdlib@3.9.2-1
+  From: python3-defaults/python3@3.9.2-3 > python3-defaults/libpython3-stdlib@3.9.2-3 > python3.9/libpython3.9-stdlib@3.9.2-1
+  and 16 more...
+
+✗ Low severity vulnerability found in python-pip/python-pip-whl
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHONPIP-569187
+  Introduced through: python-pip/python3-pip@20.3.4-4+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > python-pip/python-pip-whl@20.3.4-4+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1
+
+✗ Low severity vulnerability found in python-pip/python-pip-whl
+  Description: Arbitrary Command Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHONPIP-6035200
+  Introduced through: python-pip/python3-pip@20.3.4-4+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > python-pip/python-pip-whl@20.3.4-4+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1
+
+✗ Low severity vulnerability found in python-django/python3-django
+  Description: Improper Validation of Specified Quantity in Input
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHONDJANGO-5880661
+  Introduced through: python-django/python3-django@2:2.2.28-1~deb11u2
+  From: python-django/python3-django@2:2.2.28-1~deb11u2
+
+✗ Low severity vulnerability found in python-django/python3-django
+  Description: Improper Validation of Specified Quantity in Input
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHONDJANGO-5932018
+  Introduced through: python-django/python3-django@2:2.2.28-1~deb11u2
+  From: python-django/python3-django@2:2.2.28-1~deb11u2
+
+✗ Low severity vulnerability found in python-django/python3-django
+  Description: CVE-2024-24680
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHONDJANGO-6230084
+  Introduced through: python-django/python3-django@2:2.2.28-1~deb11u2
+  From: python-django/python3-django@2:2.2.28-1~deb11u2
+
+✗ Low severity vulnerability found in python-django/python3-django
+  Description: CVE-2024-27351
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PYTHONDJANGO-6386121
+  Introduced through: python-django/python3-django@2:2.2.28-1~deb11u2
+  From: python-django/python3-django@2:2.2.28-1~deb11u2
+
+✗ Low severity vulnerability found in procps/libprocps8
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PROCPS-5816467
+  Introduced through: procps/libprocps8@2:3.3.17-5, apache2@2.4.56-1~deb11u2, procps@2:3.3.17-5
+  From: procps/libprocps8@2:3.3.17-5
+  From: apache2@2.4.56-1~deb11u2 > procps@2:3.3.17-5 > procps/libprocps8@2:3.3.17-5
+  From: procps@2:3.3.17-5
+  and 1 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in php7.4/php7.4-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PHP74-5946061
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  and 13 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in php-phpseclib
+  Description: CVE-2024-27355
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PHPPHPSECLIB-6282742
+  Introduced through: php-phpseclib@2.0.30-2+deb11u1
+  From: php-phpseclib@2.0.30-2+deb11u1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in php-phpseclib
+  Description: CVE-2024-27354
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PHPPHPSECLIB-6282757
+  Introduced through: php-phpseclib@2.0.30-2+deb11u1
+  From: php-phpseclib@2.0.30-2+deb11u1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in perl
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PERL-1925976
+  Introduced through: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1, libalgorithm-merge-perl@0.08-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7, squid@4.13-10+deb11u3, php-cas@1.3.8-1, perl/perl-base@5.32.1-4+deb11u3
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1 > perl@5.32.1-4+deb11u3
+  From: libalgorithm-merge-perl@0.08-3 > perl@5.32.1-4+deb11u3
+  From: libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7 > perl@5.32.1-4+deb11u3
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in perl
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PERL-532614
+  Introduced through: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1, libalgorithm-merge-perl@0.08-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7, squid@4.13-10+deb11u3, php-cas@1.3.8-1, perl/perl-base@5.32.1-4+deb11u3
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1 > perl@5.32.1-4+deb11u3
+  From: libalgorithm-merge-perl@0.08-3 > perl@5.32.1-4+deb11u3
+  From: libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7 > perl@5.32.1-4+deb11u3
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in perl
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PERL-5489185
+  Introduced through: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1, libalgorithm-merge-perl@0.08-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7, squid@4.13-10+deb11u3, php-cas@1.3.8-1, perl/perl-base@5.32.1-4+deb11u3
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1 > perl@5.32.1-4+deb11u3
+  From: libalgorithm-merge-perl@0.08-3 > perl@5.32.1-4+deb11u3
+  From: libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7 > perl@5.32.1-4+deb11u3
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in perl
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PERL-5489191
+  Introduced through: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1, libalgorithm-merge-perl@0.08-3, libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7, squid@4.13-10+deb11u3, php-cas@1.3.8-1, perl/perl-base@5.32.1-4+deb11u3
+  From: libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl@0.04-6+b1 > perl@5.32.1-4+deb11u3
+  From: libalgorithm-merge-perl@0.08-3 > perl@5.32.1-4+deb11u3
+  From: libfile-fcntllock-perl/libfile-fcntllock-perl@0.22-3+b7 > perl@5.32.1-4+deb11u3
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PCRE3-523392
+  Introduced through: exim4/exim4-daemon-light@4.94.2-7+deb11u2, grep@3.6-1+deb11u1, php-cas@1.3.8-1
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.6-1+deb11u1 > pcre3/libpcre3@2:8.39-13
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > pcre3/libpcre3@2:8.39-13
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PCRE3-525075
+  Introduced through: exim4/exim4-daemon-light@4.94.2-7+deb11u2, grep@3.6-1+deb11u1, php-cas@1.3.8-1
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.6-1+deb11u1 > pcre3/libpcre3@2:8.39-13
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > pcre3/libpcre3@2:8.39-13
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PCRE3-529298
+  Introduced through: exim4/exim4-daemon-light@4.94.2-7+deb11u2, grep@3.6-1+deb11u1, php-cas@1.3.8-1
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.6-1+deb11u1 > pcre3/libpcre3@2:8.39-13
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > pcre3/libpcre3@2:8.39-13
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PCRE3-529490
+  Introduced through: exim4/exim4-daemon-light@4.94.2-7+deb11u2, grep@3.6-1+deb11u1, php-cas@1.3.8-1
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.6-1+deb11u1 > pcre3/libpcre3@2:8.39-13
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > pcre3/libpcre3@2:8.39-13
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PCRE3-572353
+  Introduced through: exim4/exim4-daemon-light@4.94.2-7+deb11u2, grep@3.6-1+deb11u1, php-cas@1.3.8-1
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > pcre3/libpcre3@2:8.39-13
+  From: grep@3.6-1+deb11u1 > pcre3/libpcre3@2:8.39-13
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > pcre3/libpcre3@2:8.39-13
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in pcre2/libpcre2-8-0
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PCRE2-5788325
+  Introduced through: pcre2/libpcre2-8-0@10.36-2+deb11u1
+  From: pcre2/libpcre2-8-0@10.36-2+deb11u1
+
+✗ Low severity vulnerability found in patch
+  Description: Release of Invalid Pointer or Reference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-2324789
+  Introduced through: patch@2.7.6-7, build-essential@12.9
+  From: patch@2.7.6-7
+  From: build-essential@12.9 > dpkg/dpkg-dev@1.20.13 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-525129
+  Introduced through: patch@2.7.6-7, build-essential@12.9
+  From: patch@2.7.6-7
+  From: build-essential@12.9 > dpkg/dpkg-dev@1.20.13 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Directory Traversal
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-525153
+  Introduced through: patch@2.7.6-7, build-essential@12.9
+  From: patch@2.7.6-7
+  From: build-essential@12.9 > dpkg/dpkg-dev@1.20.13 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in patch
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PATCH-526305
+  Introduced through: patch@2.7.6-7, build-essential@12.9
+  From: patch@2.7.6-7
+  From: build-essential@12.9 > dpkg/dpkg-dev@1.20.13 > patch@2.7.6-7
+
+✗ Low severity vulnerability found in pam/libpam-runtime
+  Description: CVE-2024-22365
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PAM-6178915
+  Introduced through: libcap2/libpam-cap@1:2.44-1, shadow/login@1:4.8.1-1, squid@4.13-10+deb11u3, pam/libpam0g@1.4.0-9+deb11u1
+  From: libcap2/libpam-cap@1:2.44-1 > pam/libpam-runtime@1.4.0-9+deb11u1
+  From: shadow/login@1:4.8.1-1 > pam/libpam-runtime@1.4.0-9+deb11u1
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > pam/libpam-runtime@1.4.0-9+deb11u1
+  and 5 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-518334
+  Introduced through: openssl/libssl1.1@1.1.1w-0+deb11u1, ssl-cert@1.1.0+nmu1, python-pip/python3-pip@20.3.4-4+deb11u1
+  From: openssl/libssl1.1@1.1.1w-0+deb11u1
+  From: ssl-cert@1.1.0+nmu1 > openssl@1.1.1w-0+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > ca-certificates@20210119 > openssl@1.1.1w-0+deb11u1
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-525332
+  Introduced through: openssl/libssl1.1@1.1.1w-0+deb11u1, ssl-cert@1.1.0+nmu1, python-pip/python3-pip@20.3.4-4+deb11u1
+  From: openssl/libssl1.1@1.1.1w-0+deb11u1
+  From: ssl-cert@1.1.0+nmu1 > openssl@1.1.1w-0+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > ca-certificates@20210119 > openssl@1.1.1w-0+deb11u1
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Improper Check for Unusual or Exceptional Conditions
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-6048819
+  Introduced through: openssl/libssl1.1@1.1.1w-0+deb11u1, ssl-cert@1.1.0+nmu1, python-pip/python3-pip@20.3.4-4+deb11u1
+  From: openssl/libssl1.1@1.1.1w-0+deb11u1
+  From: ssl-cert@1.1.0+nmu1 > openssl@1.1.1w-0+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > ca-certificates@20210119 > openssl@1.1.1w-0+deb11u1
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-0727
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENSSL-6190224
+  Introduced through: openssl/libssl1.1@1.1.1w-0+deb11u1, ssl-cert@1.1.0+nmu1, python-pip/python3-pip@20.3.4-4+deb11u1
+  From: openssl/libssl1.1@1.1.1w-0+deb11u1
+  From: ssl-cert@1.1.0+nmu1 > openssl@1.1.1w-0+deb11u1
+  From: python-pip/python3-pip@20.3.4-4+deb11u1 > ca-certificates@20210119 > openssl@1.1.1w-0+deb11u1
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Improper Initialization
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-521320
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, openldap/libldap-common@2.4.57+dfsg-3+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/mailutils@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 5 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-531344
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, openldap/libldap-common@2.4.57+dfsg-3+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/mailutils@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 5 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Cryptographic Issues
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-531747
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, openldap/libldap-common@2.4.57+dfsg-3+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/mailutils@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 5 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-5660622
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, openldap/libldap-common@2.4.57+dfsg-3+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/mailutils@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 5 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in openldap/libldap-2.4-2
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-OPENLDAP-584937
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, openldap/libldap-common@2.4.57+dfsg-3+deb11u1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/libmailutils7@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  From: mailutils/mailutils@1:3.10-3+b1 > openldap/libldap-2.4-2@2.4.57+dfsg-3+deb11u1
+  and 5 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-30590
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-5725830
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-30589
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-5725840
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-46809
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-6248986
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in nodejs/libnode72
+  Description: CVE-2024-22019
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-6248994
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in nodejs/libnode72
+  Description: CVE-2024-22025
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-6266036
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in node-ip
+  Description: Server-Side Request Forgery (SSRF)
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEIP-6241030
+  Introduced through: node-ip@1.1.5-5
+  From: node-ip@1.1.5-5
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in ncurses/libncurses6
+  Description: CVE-2023-50495
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NCURSES-6123820
+  Introduced through: ncurses/libncurses6@6.2+20201114-2+deb11u2, mailutils/mailutils@1:3.10-3+b1, apache2@2.4.56-1~deb11u2, gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, ncurses/libtinfo6@6.2+20201114-2+deb11u2, ncurses/ncurses-base@6.2+20201114-2+deb11u2, ncurses/ncurses-bin@6.2+20201114-2+deb11u2
+  From: ncurses/libncurses6@6.2+20201114-2+deb11u2
+  From: mailutils/mailutils@1:3.10-3+b1 > ncurses/libncurses6@6.2+20201114-2+deb11u2
+  From: apache2@2.4.56-1~deb11u2 > procps@2:3.3.17-5 > ncurses/libncurses6@6.2+20201114-2+deb11u2
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in ncurses/libncurses6
+  Description: CVE-2023-45918
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NCURSES-6252771
+  Introduced through: ncurses/libncurses6@6.2+20201114-2+deb11u2, mailutils/mailutils@1:3.10-3+b1, apache2@2.4.56-1~deb11u2, gnupg2/gnupg@2.2.27-2+deb11u2, python3-defaults/python3@3.9.2-3, ncurses/libtinfo6@6.2+20201114-2+deb11u2, ncurses/ncurses-base@6.2+20201114-2+deb11u2, ncurses/ncurses-bin@6.2+20201114-2+deb11u2
+  From: ncurses/libncurses6@6.2+20201114-2+deb11u2
+  From: mailutils/mailutils@1:3.10-3+b1 > ncurses/libncurses6@6.2+20201114-2+deb11u2
+  From: apache2@2.4.56-1~deb11u2 > procps@2:3.3.17-5 > ncurses/libncurses6@6.2+20201114-2+deb11u2
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libzstd/libzstd1
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBZSTD-5406388
+  Introduced through: squid@4.13-10+deb11u3, apt@2.2.4, build-essential@12.9, glibc/libc-devtools@2.31-13+deb11u8
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4 > libzstd/libzstd1@1.4.8+dfsg-2.1
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libzstd/libzstd1@1.4.8+dfsg-2.1
+  From: build-essential@12.9 > gcc-defaults/gcc@4:10.2.1-1 > gcc-10@10.2.1-6 > libzstd/libzstd1@1.4.8+dfsg-2.1
+  and 3 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libxml2
+  Description: Cross-site Scripting (XSS)
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-2964223
+  Introduced through: squid@4.13-10+deb11u3, php-cas@1.3.8-1
+  From: squid@4.13-10+deb11u3 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  and 1 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libxml2
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-5747746
+  Introduced through: squid@4.13-10+deb11u3, php-cas@1.3.8-1
+  From: squid@4.13-10+deb11u3 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  and 1 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libxml2
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-5871334
+  Introduced through: squid@4.13-10+deb11u3, php-cas@1.3.8-1
+  From: squid@4.13-10+deb11u3 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  and 1 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libxml2
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-5947664
+  Introduced through: squid@4.13-10+deb11u3, php-cas@1.3.8-1
+  From: squid@4.13-10+deb11u3 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  and 1 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libxml2
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBXML2-6227804
+  Introduced through: squid@4.13-10+deb11u3, php-cas@1.3.8-1
+  From: squid@4.13-10+deb11u3 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > libxml2@2.9.10+dfsg-6.7+deb11u4
+  and 1 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libssh2/libssh2-1
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBSSH2-5861756
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11 > libssh2/libssh2-1@1.9.0-2
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315627
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315629
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315635
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBSEPOL-1315641
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > logrotate@3.18.0-2+deb11u2 > cron@3.0pl1-137 > adduser@3.118+deb11u1 > shadow/passwd@1:4.8.1-1 > libsemanage/libsemanage1@3.1-1+b2 > libsepol/libsepol1@3.1-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBPNG16-2363923
+  Introduced through: libpng1.6/libpng16-16@1.6.37-3, glibc/libc-devtools@2.31-13+deb11u8
+  From: libpng1.6/libpng16-16@1.6.37-3
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > libpng1.6/libpng16-16@1.6.37-3
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > fontconfig/libfontconfig1@2.13.1-4.2 > freetype/libfreetype6@2.10.4+dfsg-1+deb11u1 > libpng1.6/libpng16-16@1.6.37-3
+
+✗ Low severity vulnerability found in libpng1.6/libpng16-16
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBPNG16-529373
+  Introduced through: libpng1.6/libpng16-16@1.6.37-3, glibc/libc-devtools@2.31-13+deb11u8
+  From: libpng1.6/libpng16-16@1.6.37-3
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > libpng1.6/libpng16-16@1.6.37-3
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > fontconfig/libfontconfig1@2.13.1-4.2 > freetype/libfreetype6@2.10.4+dfsg-1+deb11u1 > libpng1.6/libpng16-16@1.6.37-3
+
+✗ Low severity vulnerability found in libjpeg-turbo/libjpeg62-turbo
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBJPEGTURBO-2932112
+  Introduced through: libjpeg-turbo/libjpeg62-turbo@1:2.0.6-4, glibc/libc-devtools@2.31-13+deb11u8
+  From: libjpeg-turbo/libjpeg62-turbo@1:2.0.6-4
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > libjpeg-turbo/libjpeg62-turbo@1:2.0.6-4
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5 > libjpeg-turbo/libjpeg62-turbo@1:2.0.6-4
+
+✗ Low severity vulnerability found in libgd2/libgd3
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBGD2-1536763
+  Introduced through: libgd2/libgd3@2.3.0-2, glibc/libc-devtools@2.31-13+deb11u8
+  From: libgd2/libgd3@2.3.0-2
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2
+
+✗ Low severity vulnerability found in libgd2/libgd3
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBGD2-1570130
+  Introduced through: libgd2/libgd3@2.3.0-2, glibc/libc-devtools@2.31-13+deb11u8
+  From: libgd2/libgd3@2.3.0-2
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2
+
+✗ Low severity vulnerability found in libgd2/libgd3
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBGD2-1583889
+  Introduced through: libgd2/libgd3@2.3.0-2, glibc/libc-devtools@2.31-13+deb11u8
+  From: libgd2/libgd3@2.3.0-2
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBGCRYPT20-1297892
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, squid@4.13-10+deb11u3, apt@2.2.4, gnupg2/gnupg@2.2.27-2+deb11u2, php-cas@1.3.8-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4 > libgcrypt20@1.8.7-6
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
+  and 9 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBGCRYPT20-523947
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, squid@4.13-10+deb11u3, apt@2.2.4, gnupg2/gnupg@2.2.27-2+deb11u2, php-cas@1.3.8-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4 > libgcrypt20@1.8.7-6
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
+  and 9 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBGCRYPT20-6405987
+  Introduced through: gnupg2/dirmngr@2.2.27-2+deb11u2, squid@4.13-10+deb11u3, apt@2.2.4, gnupg2/gnupg@2.2.27-2+deb11u2, php-cas@1.3.8-1
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > libgcrypt20@1.8.7-6
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4 > libgcrypt20@1.8.7-6
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4 > libgcrypt20@1.8.7-6
+  and 9 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libcap2
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBCAP2-5537063
+  Introduced through: libcap2/libcap2-bin@1:2.44-1, libcap2/libpam-cap@1:2.44-1, squid@4.13-10+deb11u3
+  From: libcap2/libcap2-bin@1:2.44-1 > libcap2@1:2.44-1
+  From: libcap2/libpam-cap@1:2.44-1 > libcap2@1:2.44-1
+  From: squid@4.13-10+deb11u3 > libcap2@1:2.44-1
+  and 2 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in libcap2
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-LIBCAP2-5537070
+  Introduced through: libcap2/libcap2-bin@1:2.44-1, libcap2/libpam-cap@1:2.44-1, squid@4.13-10+deb11u3
+  From: libcap2/libcap2-bin@1:2.44-1 > libcap2@1:2.44-1
+  From: libcap2/libpam-cap@1:2.44-1 > libcap2@1:2.44-1
+  From: squid@4.13-10+deb11u3 > libcap2@1:2.44-1
+  and 2 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-KRB5-524883
+  Introduced through: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4, krb5/libk5crypto3@1.18.3-6+deb11u4, krb5/libkrb5-3@1.18.3-6+deb11u4, krb5/libkrb5support0@1.18.3-6+deb11u4
+  From: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4
+  From: krb5/libk5crypto3@1.18.3-6+deb11u4
+  From: krb5/libkrb5-3@1.18.3-6+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
+  Description: CVE-2024-26462
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-KRB5-6277413
+  Introduced through: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4, krb5/libk5crypto3@1.18.3-6+deb11u4, krb5/libkrb5-3@1.18.3-6+deb11u4, krb5/libkrb5support0@1.18.3-6+deb11u4
+  From: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4
+  From: krb5/libk5crypto3@1.18.3-6+deb11u4
+  From: krb5/libkrb5-3@1.18.3-6+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
+  Description: CVE-2024-26461
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-KRB5-6277418
+  Introduced through: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4, krb5/libk5crypto3@1.18.3-6+deb11u4, krb5/libkrb5-3@1.18.3-6+deb11u4, krb5/libkrb5support0@1.18.3-6+deb11u4
+  From: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4
+  From: krb5/libk5crypto3@1.18.3-6+deb11u4
+  From: krb5/libkrb5-3@1.18.3-6+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in krb5/libgssapi-krb5-2
+  Description: CVE-2024-26458
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-KRB5-6277420
+  Introduced through: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4, krb5/libk5crypto3@1.18.3-6+deb11u4, krb5/libkrb5-3@1.18.3-6+deb11u4, krb5/libkrb5support0@1.18.3-6+deb11u4
+  From: krb5/libgssapi-krb5-2@1.18.3-6+deb11u4
+  From: krb5/libk5crypto3@1.18.3-6+deb11u4
+  From: krb5/libkrb5-3@1.18.3-6+deb11u4
+  and 1 more...
+
+✗ Low severity vulnerability found in jbigkit/libjbig0
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-JBIGKIT-514977
+  Introduced through: jbigkit/libjbig0@2.1-3.1+b2, glibc/libc-devtools@2.31-13+deb11u8
+  From: jbigkit/libjbig0@2.1-3.1+b2
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > tiff/libtiff5@4.2.0-1+deb11u5 > jbigkit/libjbig0@2.1-3.1+b2
+
+✗ Low severity vulnerability found in jansson/libjansson4
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-JANSSON-1264524
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > jansson/libjansson4@2.13.1-1.1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GNUTLS28-515971
+  Introduced through: apt@2.2.4, exim4/exim4-daemon-light@4.94.2-7+deb11u2, gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, gnutls28/libgnutls-dane0@3.7.1-5+deb11u4
+  From: apt@2.2.4 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  and 8 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GNUTLS28-6159417
+  Introduced through: apt@2.2.4, exim4/exim4-daemon-light@4.94.2-7+deb11u2, gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, gnutls28/libgnutls-dane0@3.7.1-5+deb11u4
+  From: apt@2.2.4 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  and 8 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GNUTLS28-6159419
+  Introduced through: apt@2.2.4, exim4/exim4-daemon-light@4.94.2-7+deb11u2, gnupg2/dirmngr@2.2.27-2+deb11u2, mailutils/libmailutils7@1:3.10-3+b1, mailutils/mailutils@1:3.10-3+b1, squid@4.13-10+deb11u3, php-cas@1.3.8-1, gnutls28/libgnutls-dane0@3.7.1-5+deb11u4
+  From: apt@2.2.4 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  From: exim4/exim4-daemon-light@4.94.2-7+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  From: gnupg2/dirmngr@2.2.27-2+deb11u2 > gnutls28/libgnutls30@3.7.1-5+deb11u4
+  and 8 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GNUPG2-3330745
+  Introduced through: gnupg2/gpgv@2.2.27-2+deb11u2, apt@2.2.4, gnupg2/gnupg@2.2.27-2+deb11u2, gnupg2/gpgconf@2.2.27-2+deb11u2, gnupg2/dirmngr@2.2.27-2+deb11u2, gnupg2/gnupg-l10n@2.2.27-2+deb11u2, gnupg2/gnupg-utils@2.2.27-2+deb11u2, gnupg2/gpg@2.2.27-2+deb11u2, gnupg2/gpg-agent@2.2.27-2+deb11u2, gnupg2/gpg-wks-client@2.2.27-2+deb11u2, gnupg2/gpg-wks-server@2.2.27-2+deb11u2, gnupg2/gpgsm@2.2.27-2+deb11u2
+  From: gnupg2/gpgv@2.2.27-2+deb11u2
+  From: apt@2.2.4 > gnupg2/gpgv@2.2.27-2+deb11u2
+  From: gnupg2/gnupg@2.2.27-2+deb11u2 > gnupg2/gpgv@2.2.27-2+deb11u2
+  and 27 more...
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-521063
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-521199
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use of Insufficiently Random Values
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-522385
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-529848
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: CVE-2019-1010023
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-531451
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-531492
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Resource Management Errors
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-532215
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-5894105
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in glibc/libc6-dev
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GLIBC-5894112
+  Introduced through: glibc/libc6-dev@2.31-13+deb11u8, expat/libexpat1-dev@2.2.10-2+deb11u5, build-essential@12.9, python3-defaults/python3-dev@3.9.2-3, glibc/libc-dev-bin@2.31-13+deb11u8, glibc/libc-bin@2.31-13+deb11u8, glibc/libc-devtools@2.31-13+deb11u8, glibc/libc6@2.31-13+deb11u8
+  From: glibc/libc6-dev@2.31-13+deb11u8
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > glibc/libc6-dev@2.31-13+deb11u8
+  From: build-essential@12.9 > glibc/libc6-dev@2.31-13+deb11u8
+  and 7 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in gcc-9/gcc-9-base
+  Description: CVE-2023-4039
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GCC9-5901306
+  Introduced through: gcc-9/gcc-9-base@9.3.0-22
+  From: gcc-9/gcc-9-base@9.3.0-22
+
+✗ Low severity vulnerability found in gcc-10
+  Description: CVE-2023-4039
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-GCC10-5901313
+  Introduced through: gcc-10@10.2.1-6, build-essential@12.9, gcc-10/libgcc-10-dev@10.2.1-6, gcc-10/libstdc++-10-dev@10.2.1-6, gcc-10/g++-10@10.2.1-6, gcc-10/cpp-10@10.2.1-6, gcc-10/libcc1-0@10.2.1-6, gcc-10/libasan6@10.2.1-6, gcc-10/libatomic1@10.2.1-6, gcc-10/libgomp1@10.2.1-6, gcc-10/libitm1@10.2.1-6, gcc-10/liblsan0@10.2.1-6, gcc-10/libquadmath0@10.2.1-6, gcc-10/libtsan0@10.2.1-6, gcc-10/libubsan1@10.2.1-6, gcc-10/gcc-10-base@10.2.1-6, gcc-10/libgcc-s1@10.2.1-6, gcc-10/libstdc++6@10.2.1-6
+  From: gcc-10@10.2.1-6
+  From: build-essential@12.9 > gcc-defaults/g++@4:10.2.1-1 > gcc-10@10.2.1-6
+  From: build-essential@12.9 > gcc-defaults/gcc@4:10.2.1-1 > gcc-10@10.2.1-6
+  and 32 more...
+
+✗ Low severity vulnerability found in freetype/libfreetype6
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-FREETYPE-2848681
+  Introduced through: freetype/libfreetype6@2.10.4+dfsg-1+deb11u1, glibc/libc-devtools@2.31-13+deb11u8
+  From: freetype/libfreetype6@2.10.4+dfsg-1+deb11u1
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > freetype/libfreetype6@2.10.4+dfsg-1+deb11u1
+  From: glibc/libc-devtools@2.31-13+deb11u8 > libgd2/libgd3@2.3.0-2 > fontconfig/libfontconfig1@2.13.1-4.2 > freetype/libfreetype6@2.10.4+dfsg-1+deb11u1
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: XML External Entity (XXE) Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXPAT-524217
+  Introduced through: expat/libexpat1-dev@2.2.10-2+deb11u5, squid@4.13-10+deb11u3, mailutils/libmailutils7@1:3.10-3+b1, glibc/libc-devtools@2.31-13+deb11u8, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3-dev@3.9.2-3
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > expat/libexpat1@2.2.10-2+deb11u5
+  From: squid@4.13-10+deb11u3 > expat/libexpat1@2.2.10-2+deb11u5
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > expat/libexpat1@2.2.10-2+deb11u5
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in expat/libexpat1
+  Description: CVE-2024-28757
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXPAT-6420594
+  Introduced through: expat/libexpat1-dev@2.2.10-2+deb11u5, squid@4.13-10+deb11u3, mailutils/libmailutils7@1:3.10-3+b1, glibc/libc-devtools@2.31-13+deb11u8, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3-dev@3.9.2-3
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > expat/libexpat1@2.2.10-2+deb11u5
+  From: squid@4.13-10+deb11u3 > expat/libexpat1@2.2.10-2+deb11u5
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > expat/libexpat1@2.2.10-2+deb11u5
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in exim4/exim4-config
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXIM4-1538494
+  Introduced through: exim4/exim4-config@4.94.2-7+deb11u2, exim4/exim4-base@4.94.2-7+deb11u2, exim4/exim4-daemon-light@4.94.2-7+deb11u2
+  From: exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2 > exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2
+  and 2 more...
+
+✗ Low severity vulnerability found in exim4/exim4-config
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXIM4-3050749
+  Introduced through: exim4/exim4-config@4.94.2-7+deb11u2, exim4/exim4-base@4.94.2-7+deb11u2, exim4/exim4-daemon-light@4.94.2-7+deb11u2
+  From: exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2 > exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2
+  and 2 more...
+
+✗ Low severity vulnerability found in exim4/exim4-config
+  Description: CVE-2023-42117
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXIM4-5923382
+  Introduced through: exim4/exim4-config@4.94.2-7+deb11u2, exim4/exim4-base@4.94.2-7+deb11u2, exim4/exim4-daemon-light@4.94.2-7+deb11u2
+  From: exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2 > exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2
+  and 2 more...
+
+✗ Low severity vulnerability found in exim4/exim4-config
+  Description: CVE-2023-42119
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXIM4-5923386
+  Introduced through: exim4/exim4-config@4.94.2-7+deb11u2, exim4/exim4-base@4.94.2-7+deb11u2, exim4/exim4-daemon-light@4.94.2-7+deb11u2
+  From: exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2 > exim4/exim4-config@4.94.2-7+deb11u2
+  From: exim4/exim4-base@4.94.2-7+deb11u2
+  and 2 more...
+
+✗ Low severity vulnerability found in e2fsprogs/libext2fs2
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-E2FSPROGS-2628459
+  Introduced through: e2fsprogs/libext2fs2@1.46.2-2, e2fsprogs@1.46.2-2, e2fsprogs/libss2@1.46.2-2, e2fsprogs/logsave@1.46.2-2, e2fsprogs/libcom-err2@1.46.2-2
+  From: e2fsprogs/libext2fs2@1.46.2-2
+  From: e2fsprogs@1.46.2-2 > e2fsprogs/libext2fs2@1.46.2-2
+  From: e2fsprogs/libss2@1.46.2-2
+  and 5 more...
+
+✗ Low severity vulnerability found in db5.3/libdb5.3
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-DB53-2825168
+  Introduced through: db5.3/libdb5.3@5.3.28+dfsg1-0.8
+  From: db5.3/libdb5.3@5.3.28+dfsg1-0.8
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Insufficiently Protected Credentials
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-1322659
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Improper Validation of Integrity Check Value
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-1322667
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in curl/libcurl4
+  Description: Race Condition
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-5561869
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-514776
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-cli@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4 > ucf@3.0043 > coreutils/coreutils@8.32-4+b1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in coreutils/coreutils
+  Description: Race Condition
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-COREUTILS-527269
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-cli@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4 > ucf@3.0043 > coreutils/coreutils@8.32-4+b1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in c-ares/libc-ares2
+  Description: Use of Insufficiently Random Values
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CARES-5595361
+  Introduced through: node-ip@1.1.5-5
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4 > c-ares/libc-ares2@1.17.1-1+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in c-ares/libc-ares2
+  Description: Use of Insufficiently Random Values
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CARES-5595364
+  Introduced through: node-ip@1.1.5-5
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4 > c-ares/libc-ares2@1.17.1-1+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in c-ares/libc-ares2
+  Description: CVE-2024-25629
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CARES-6265619
+  Introduced through: node-ip@1.1.5-5
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4 > c-ares/libc-ares2@1.17.1-1+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1054596
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Link Following
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1065551
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1086496
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1292158
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-1296883
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2321369
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2341553
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-2993560
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-3041902
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-3172914
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-522743
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-523191
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-525795
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-527784
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-528223
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-529902
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5416281
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5422223
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5803140
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853670
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853671
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853674
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853682
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Reachable Assertion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853683
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853688
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853695
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: CVE-2022-47695
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853709
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853710
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853712
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853726
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: CVE-2022-47696
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853727
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853734
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Memory Leak
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5853737
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5858434
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: CVE-2020-19726
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5862063
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Use of Uninitialized Resource
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5903050
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Use of Uninitialized Resource
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5903055
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Use of Uninitialized Resource
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5903056
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in binutils/binutils-common
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BINUTILS-5903065
+  Introduced through: binutils/binutils-common@2.35.2-2, binutils@2.35.2-2, binutils/libbinutils@2.35.2-2, binutils/libctf-nobfd0@2.35.2-2, binutils/libctf0@2.35.2-2, binutils/binutils-x86-64-linux-gnu@2.35.2-2, build-essential@12.9
+  From: binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  From: binutils@2.35.2-2 > binutils/libbinutils@2.35.2-2 > binutils/binutils-common@2.35.2-2
+  and 14 more...
+
+✗ Low severity vulnerability found in bash
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-BASH-3112361
+  Introduced through: bash@5.1-2+deb11u1
+  From: bash@5.1-2+deb11u1
+
+✗ Low severity vulnerability found in apt/libapt-pkg6.0
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APT-522585
+  Introduced through: apt/libapt-pkg6.0@2.2.4, apt@2.2.4
+  From: apt/libapt-pkg6.0@2.2.4
+  From: apt@2.2.4 > apt/libapt-pkg6.0@2.2.4
+  From: apt@2.2.4
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Cross-site Scripting (XSS)
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-515362
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Session Fixation
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-515512
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-516308
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Numeric Errors
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-519501
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2003-1307
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-522774
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: CVE-2007-1743
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-526490
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-527325
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-529361
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-6015863
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-6015865
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Low severity vulnerability found in apache2/apache2-bin
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-APACHE2-6015866
+  Introduced through: apache2@2.4.56-1~deb11u2, php-cas@1.3.8-1, apache2/apache2-data@2.4.56-1~deb11u2, apache2/apache2-utils@2.4.56-1~deb11u2
+  From: apache2@2.4.56-1~deb11u2 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2
+  From: apache2/apache2-data@2.4.56-1~deb11u2
+  and 4 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Medium severity vulnerability found in expat/libexpat1
+  Description: Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion')
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXPAT-6227594
+  Introduced through: expat/libexpat1-dev@2.2.10-2+deb11u5, squid@4.13-10+deb11u3, mailutils/libmailutils7@1:3.10-3+b1, glibc/libc-devtools@2.31-13+deb11u8, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3-dev@3.9.2-3
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > expat/libexpat1@2.2.10-2+deb11u5
+  From: squid@4.13-10+deb11u3 > expat/libexpat1@2.2.10-2+deb11u5
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > expat/libexpat1@2.2.10-2+deb11u5
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Medium severity vulnerability found in curl/libcurl4
+  Description: Cleartext Transmission of Sensitive Information
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-3320492
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Medium severity vulnerability found in curl/libcurl4
+  Description: Missing Encryption of Sensitive Data
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-6100978
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in systemd/libsystemd0
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SYSTEMD-6277510
+  Introduced through: apt@2.2.4, util-linux/bsdutils@1:2.36.1-8+deb11u1, squid@4.13-10+deb11u3, util-linux/mount@2.36.1-8+deb11u1, apache2@2.4.56-1~deb11u2, systemd/libudev1@247.3-7+deb11u4
+  From: apt@2.2.4 > systemd/libsystemd0@247.3-7+deb11u4
+  From: util-linux/bsdutils@1:2.36.1-8+deb11u1 > systemd/libsystemd0@247.3-7+deb11u4
+  From: squid@4.13-10+deb11u3 > systemd/libsystemd0@247.3-7+deb11u4
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in squid/squid-common
+  Description: Improper Handling of Exceptional Conditions
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQUID-6042964
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > squid/squid-common@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in squid/squid-common
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQUID-6048826
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > squid/squid-common@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in squid/squid-common
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-SQUID-6100602
+  Introduced through: squid@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3 > squid/squid-common@4.13-10+deb11u3
+  From: squid@4.13-10+deb11u3
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in php7.4/php7.4-common
+  Description: XML External Entity (XXE) Injection
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PHP74-5838882
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  and 13 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in php-cas
+  Description: Improper Validation of Specified Type of Input
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PHPCAS-3100268
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-30581
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-5725819
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-32559
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-5837091
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-32006
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-5837094
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in expat/libexpat1
+  Description: Resource Exhaustion
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-EXPAT-6227598
+  Introduced through: expat/libexpat1-dev@2.2.10-2+deb11u5, squid@4.13-10+deb11u3, mailutils/libmailutils7@1:3.10-3+b1, glibc/libc-devtools@2.31-13+deb11u8, python3-defaults/python3@3.9.2-3, php-cas@1.3.8-1, python3-defaults/libpython3-dev@3.9.2-3, python3-defaults/python3-dev@3.9.2-3
+  From: expat/libexpat1-dev@2.2.10-2+deb11u5 > expat/libexpat1@2.2.10-2+deb11u5
+  From: squid@4.13-10+deb11u3 > expat/libexpat1@2.2.10-2+deb11u5
+  From: mailutils/libmailutils7@1:3.10-3+b1 > python3.9/libpython3.9@3.9.2-1 > expat/libexpat1@2.2.10-2+deb11u5
+  and 6 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in curl/libcurl4
+  Description: Cleartext Transmission of Sensitive Information
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-3066040
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ High severity vulnerability found in curl/libcurl4
+  Description: Cleartext Transmission of Sensitive Information
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-3179181
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Critical severity vulnerability found in zlib/zlib1g-dev
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-ZLIB-6008961
+  Introduced through: zlib/zlib1g-dev@1:1.2.11.dfsg-2+deb11u2, python3-defaults/python3-dev@3.9.2-3, zlib/zlib1g@1:1.2.11.dfsg-2+deb11u2
+  From: zlib/zlib1g-dev@1:1.2.11.dfsg-2+deb11u2
+  From: python3-defaults/python3-dev@3.9.2-3 > python3.9/python3.9-dev@3.9.2-1 > zlib/zlib1g-dev@1:1.2.11.dfsg-2+deb11u2
+  From: zlib/zlib1g@1:1.2.11.dfsg-2+deb11u2
+
+✗ Critical severity vulnerability found in php7.4/php7.4-common
+  Description: Out-of-Bounds
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-PHP74-5838886
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > php7.4/php7.4-common@7.4.33-1+deb11u4
+  and 13 more...
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Critical severity vulnerability found in nodejs/libnode72
+  Description: CVE-2023-32002
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-NODEJS-5837122
+  Introduced through: node-ip@1.1.5-5, nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4 > nodejs/libnode72@12.22.12~dfsg-1~deb11u4
+  From: node-ip@1.1.5-5 > nodejs@12.22.12~dfsg-1~deb11u4
+  From: nodejs/nodejs-doc@12.22.12~dfsg-1~deb11u4
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+✗ Critical severity vulnerability found in curl/libcurl4
+  Description: Cleartext Transmission of Sensitive Information
+  Info: https://security.snyk.io/vuln/SNYK-DEBIAN11-CURL-3320493
+  Introduced through: php-cas@1.3.8-1
+  From: php-cas@1.3.8-1 > php-defaults/php-curl@2:7.4+76 > php7.4/php7.4-curl@7.4.33-1+deb11u4 > curl/libcurl4@7.74.0-1.3+deb11u11
+  From: php-cas@1.3.8-1 > php-defaults/php@2:7.4+76 > php7.4@7.4.33-1+deb11u4 > php7.4/libapache2-mod-php7.4@7.4.33-1+deb11u4 > apache2/apache2-bin@2.4.56-1~deb11u2 > curl/libcurl4@7.74.0-1.3+deb11u11
+  Image layer: 'apt install -y python3-django php-phpseclib squid php-cas node-ip'
+
+
+
+Organization:      hogo6002
+Package manager:   deb
+Project name:      docker-image|debian-tester
+Docker image:      debian-tester
+Platform:          linux/amd64
+Licenses:          enabled
+
+Tested 315 dependencies for known issues, found 236 issues.
+
+Snyk wasn’t able to auto detect the base image, use `--file` option to get base image remediation advice.
+Example: $ snyk container test debian-tester --file=path/to/Dockerfile
+
+To remove this message in the future, please run `snyk config set disableSuggestions=true`
+
+
